@@ -1,0 +1,302 @@
+% Essential packages
+\usepackage{graphicx}   % For image handling
+\usepackage{subcaption} % For multi images
+\usepackage{caption}    % For proper captions
+\usepackage{listings}   % For code listings
+\usepackage{fontspec}   % For custom fonts
+\usepackage{xcolor}     % For color support
+\usepackage{tcolorbox}  % For code block boxes
+\usepackage{etoolbox}   % For patching and command manipulation
+\usepackage{titlesec}   % For section formatting
+\usepackage{parskip}    % For customisable paragraph formating
+\usepackage{comment}    % For being able to comment out sections
+\usepackage{geometry}   % For managing page size and margins
+\usepackage{hyperref}   % For embedding links, like URL's
+\usepackage{bigstrut}
+\usepackage{multirow}
+\usepackage{colortbl}
+\usepackage{amsmath}    % For math and equation formatting
+\usepackage{units}
+
+\tcbuselibrary{listings, skins, breakable}  %Librarary to make code blocks multipage
+
+
+%   ############################## Customisation ##############################
+
+% Adjust the body text font size to 12pt without affecting section headings
+\renewcommand{\normalsize}{\fontsize{12}{16}\selectfont}
+
+% Adjust the paragraph spacing, either as indentation or/and line spaceing
+\setlength{\parindent}{0pt}  % Remove indentation
+\setlength{\parskip}{6pt}    % Add vertical space between paragraphs
+
+% Customisation of fonts and colors
+\setmainfont{Times New Roman}
+\setmonofont{JetBrains Mono}
+\definecolor{background}{RGB}{225, 219, 202}
+\definecolor{darkAccent}{RGB}{140, 98, 64}
+\definecolor{commentGreen}{RGB}{26, 159, 32}
+\definecolor{keywordPurple}{RGB}{229, 24, 192}
+\definecolor{keywordBlue}{RGB}{5, 142, 217}
+\definecolor{portOrange}{RGB}{234, 72, 31}
+\definecolor{darkGray}{RGB}{60, 60, 60}
+
+% Link color customization
+\hypersetup{
+    colorlinks=true,
+    linkcolor=darkGray, % Internal links such as table of contents or figure referencing
+    urlcolor=keywordBlue % URL colors
+    }
+\urlstyle{same} % Makes url in the same style as the rest of the document
+
+% Customisation of margins and paper size
+\geometry{
+ a4paper,
+ left = 30mm,
+ right = 30mm,
+ top = 30mm,
+ bottom = 30mm
+ }
+
+% Sections formatting and numbering
+% Sets the font to monospace for section, subsection and subsubsection
+% and sets the format to be numbers with . between and at the end
+\renewcommand{\thesection}{\texttt{\arabic{section}.}}
+\renewcommand{\thesubsection}{\texttt{\arabic{section}.\arabic{subsection}.}}
+\renewcommand{\thesubsubsection}{\texttt{\arabic{section}.\arabic{subsection}.\arabic{subsubsection}.}}
+
+\setcounter{section}{-1}  % Start section numbering from 0, delete this to start from 1
+
+
+\newcounter{codeblock} % Define new counter
+\renewcommand{\thecodeblock}{\arabic{section}.\arabic{codeblock}} % Define numbering format
+
+% Makes section monospace font and start each subsection from 0 and figure number
+\let\oldsection\section
+\renewcommand{\section}[1]{%
+  \oldsection{\texttt{#1}} % Make section title monospace
+  \setcounter{subsection}{-1} % Makes subsection start from 0, delete this line to start from 1
+  \setcounter{figure}{-1} % Makes figure numbers start from 0, delete this line to start from 1
+  \setcounter{table}{-1} % Makes table numbers start from 0, delete this line to start from 1
+  \setcounter{codeblock}{-1}
+}
+
+
+% Makes subsection monospace font and start each subsubsection from 0
+\let\oldsubsection\subsection
+\renewcommand{\subsection}[1]{%
+  \oldsubsection{\texttt{#1}}% Make subsection title monospace
+  \setcounter{subsubsection}{-1}% Makes subsubsection start from 0, delete this line to start from 1
+}
+
+% Makes subsubsection monospace font
+\let\oldsubsubsection\subsubsection
+\renewcommand{\subsubsection}[1]{%
+  \oldsubsubsection{\texttt{#1}}% Make subsubsection title monospace
+}
+
+% Makes every new section start on a new page, except for the first section, section 0
+\pretocmd{\section}{%
+  \ifnum\value{section}=-1 \else\clearpage\fi % Replace -1 with 0 if sections start at nr. 1
+}{}{}
+
+% Makes Table of contents a subsection
+\makeatletter
+\renewcommand{\tableofcontents}{%
+    \subsection{Table of Contents} % Numbered subsection named Table of contents
+    \@starttoc{toc}%
+}
+\makeatother
+
+\makeatletter
+ \renewcommand*\l@subsection{\@dottedtocline{2}{1.5em}{2.7em}}
+ \renewcommand*\l@subsubsection{\@dottedtocline{3}{3.8em}{3.9em}}
+\makeatother
+
+
+% Makes List of figures a subsection
+\makeatletter
+\renewcommand{\listoffigures}{%
+    \subsection{List of Figures} % Numbered subsection named List of figures
+    \@starttoc{lof}%
+}
+\makeatother
+
+% Makes List of tables a subsection
+\makeatletter
+\renewcommand{\listoftables}{%
+    \subsection{List of Tables} % Numbered subsection named List of tables
+    \@starttoc{lot}%
+}
+\makeatother
+
+
+% Makes every figure be formated as section number.figure number
+\renewcommand{\thefigure}{\arabic{section}.\arabic{figure}}
+
+% Makes every table be formated as section number.table number
+\renewcommand{\thetable}{\arabic{section}.\arabic{table}}
+\AtBeginEnvironment{tabular}{\ttfamily} % Monozpaced font within tables
+
+% Add keywords to be highlited in blue below. Note that all reserved
+% keywords from VHDL is already in purple and should not be added here
+% too as duplicates will cause issues. Therfore compile this document
+% after pasting in code and only add non-highlited words to this list.
+% Also, there is not a list for orange keywords, used for ports here.
+\lstdefinelanguage{VHDL+}{
+    language     = VHDL,,
+    morekeywords = [2]{
+        ieee, std_logic_1164, numeric_std, work,
+        std_logic, std_logic_vector,
+        natural, integer, signed, unsigned,
+        length},
+    morekeywords = [3]{
+        rising_edge, falling_edge, to_integer, to_unsigned, to_
+        SW, LEDR, KEY, CLOCK_50,
+        HEX0, HEX1, HEX2, HEX3, HEX4, HEX5, HEX6},
+    sensitive = false
+}
+
+\lstdefinelanguage{Python+}{
+    language     = Python,
+    morekeywords = [2]{
+        None, ValueError},
+    morekeywords = [3]{
+        self},
+    sensitive = true
+}
+
+%   ############################## Advanced customisation ##############################
+
+% Customisation of list style inside code block
+\lstdefinestyle{VHDL}{
+    language = VHDL+, % Uses the extra higlights from above
+    % The folloowing lines defines color for highlighting, other changes like
+    % italic, bold or different fonts can also be added to this
+    escapechar = §,
+    commentstyle = \color{commentGreen}, 
+    keywordstyle = \color{keywordPurple},
+    keywordstyle = [2]\color{keywordBlue},
+    keywordstyle = [3]\color{portOrange},
+    stringstyle = \color{darkAccent},
+    basicstyle = \ttfamily\small, % Default font inside code block
+    numberstyle = \ttfamily\color{darkAccent}, % Style of line numbering
+    numbers = left, % Line numbering on left side
+    breakatwhitespace = false, % Don't start new line with only whitspaces
+    breaklines = true, % If line is to long it will wrap to next line (line number does not increase)
+    keepspaces = true, % Indents works logical
+    showspaces = false, % Space is blank character, set to true to show dots instad
+    showstringspaces = false, % Same as above but inside strings
+    showtabs = false, % Tab is also blank character, set to true to show dashes
+    tabsize = 4, % Tabsize is set to 4, this works well with code from notepad++
+    % Dont mess with the ones below unless you want to mess with the box as well
+    % These took some time to line up such that it looks natural
+    numbersep = 10pt, % Adjust distance between numbers and code
+    xleftmargin = -8pt,% Negative margin to pull code text closer to the left border
+}
+
+\lstdefinestyle{Python}{
+    language = Python+, % Uses the extra higlights from above
+    % The folloowing lines defines color for highlighting, other changes like
+    % italic, bold or different fonts can also be added to this
+    commentstyle = \color{commentGreen}, 
+    keywordstyle = \color{keywordPurple},
+    keywordstyle = [2]\color{keywordBlue},
+    keywordstyle = [3]\color{portOrange},
+    stringstyle = \color{darkAccent},
+    basicstyle = \ttfamily\footnotesize, % Default font inside code block
+    numberstyle = \ttfamily\color{darkAccent}, % Style of line numbering
+    numbers = left, % Line numbering on left side
+    breakatwhitespace = false, % Don't start new line with only whitspaces
+    breaklines = true, % If line is to long it will wrap to next line (line number does not increase)
+    keepspaces = true, % Indents works logical
+    showspaces = false, % Space is blank character, set to true to show dots instad
+    showstringspaces = false, % Same as above but inside strings
+    showtabs = false, % Tab is also blank character, set to true to show dashes
+    tabsize = 4, % Tabsize is set to 4, this works well with code from notepad++
+    % Dont mess with the ones below unless you want to mess with the box as well
+    % These took some time to line up such that it looks natural
+    numbersep = 10pt, % Adjust distance between numbers and code
+    xleftmargin = -8pt,% Negative margin to pull code text closer to the left border
+}
+
+% This is for code where VHDL or Python is not an argument
+\lstdefinestyle{Example Code}{
+    basicstyle = \ttfamily\small, % Default font inside code block
+    numberstyle = \ttfamily\color{darkAccent}, % Style of line numbering
+    numbers = left, % Line numbering on left side
+    breakatwhitespace = false, % Don't start new line with only whitspaces
+    breaklines = true, % If line is to long it will wrap to next line (line number does not increase)
+    keepspaces = true, % Indents works logical
+    showspaces = false, % Space is blank character, set to true to show dots instad
+    showstringspaces = false, % Same as above but inside strings
+    showtabs = false, % Tab is also blank character, set to true to show dashes
+    tabsize = 4, % Tabsize is set to 4, this works well with code from notepad++
+    % Dont mess with the ones below unless you want to mess with the box as well
+    % These took some time to line up such that it looks natural
+    numbersep = 10pt, % Adjust distance between numbers and code
+    xleftmargin = -8pt,% Negative margin to pull code text closer to the left border
+}
+
+\lstset{style = Example Code} %Sets the default style to Example Code
+
+% Customisation of code block itself
+\newtcolorbox[auto counter, number within=section]{codeBlock}[2][]{
+    colback=background, % Background color for the code block
+    colframe=darkAccent, % Border color for the code block
+    listing only, %Makes it contain the listing
+    arc=10pt, % Rounded corners size
+    sharp corners=northeast, % Make top-right corner sharp for the main box
+    enhanced jigsaw, % Essential dont mess with it
+    breakable, % Allows content to be multipage
+    top=-4pt, % Made to line up text dont mess with it
+    bottom=-4pt, % Same as above
+    before skip=0pt, after skip=10pt, % Adjust spacing before and after the box
+    boxrule=1pt, % Border thickness of the main box
+    overlay unbroken and first={\node[ % Create label box in the top-right corner
+        anchor=north east,      %Position of box, same as sharp corner in this case
+        fill=background,        %Background color same as main box
+        draw=darkAccent,        %Outline color, same as main box
+        line width=1pt,         %Outline thickness, same as main box
+        text=keywordPurple,     %Text color
+        font=\ttfamily,         %Text font and size
+        inner sep=6pt,          %Spacing inside
+        minimum width=16pt,     %Minimum box with, it autoresizes depending on text
+        minimum height=12pt,    %Minimum box height, it autoresizes depending on text
+        text centered,          %Centres the text with the spacing
+        sharp corners]          %Makes corners sharp
+        at ([xshift=0pt, yshift=0pt]frame.north east) % Position, aligned with corner on main box
+        {#2}; % Types your argument in the top corner as a label
+    }
+}
+
+\newcommand{\writecode}[3][Example Code]{%
+    \par\medskip % Adds some vertical spacing before the caption
+    \refstepcounter{codeblock} % Step the figure counter
+    \label{Code:#2} % Unique label for referencing
+    \begin{center} % Center the caption
+        Code \thecodeblock: #3 % Fake caption
+    \end{center}
+    \addcontentsline{lof}{figure}{Code \thecodeblock: #3} % Manually add entry to List of Figures
+    \par\medskip % Adds some vertical spacing after the caption before the code block
+    \begin{codeBlock}{#1}% arg 1 (default Example Code) will be written in the top right corner box
+        \lstinputlisting[style=#1]{Code/#2}% arg 1 style is used and arg 2 is filename
+    \end{codeBlock}%
+    \par\medskip % Adds some vertical spacing after the code block
+}
+
+
+
+
+\newcommand{\figcaption}[1]{%
+    \caption[]{#1} % Suppress the default entry in LoF
+    \addcontentsline{lof}{figure}{Figure \thefigure: #1} % Manually add the correct format
+}
+
+\newcommand{\tabcaption}[1]{%
+    \caption[]{#1} % Suppress the default entry in LoT
+    \addcontentsline{lot}{table}{Table \thetable: #1} % Manually add the correct format
+}
+
+\newcommand{\linkgithub}[1]{\href{https://github.com/Kjelseth/PLK_lab.git}{#1}}
+
