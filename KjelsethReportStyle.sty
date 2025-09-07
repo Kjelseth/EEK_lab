@@ -5,6 +5,9 @@
 \usepackage{listings}   % For code listings
 \usepackage{fontspec}   % For custom fonts
 \usepackage{xcolor}     % For color support
+\usepackage{xparse}
+\usepackage{xstring}    % for \IfEqCase
+\usepackage{xifthen}
 \usepackage{tcolorbox}  % For code block boxes
 \usepackage{etoolbox}   % For patching and command manipulation
 \usepackage{titlesec}   % For section formatting
@@ -284,5 +287,20 @@
 
 
 
-\newcommand{\linkgithub}[1]{\href{https://github.com/Kjelseth/EEK_lab}{#1}}
+%\newcommand{\linkgithub}[1]{\href{https://github.com/Kjelseth/EEK_lab}{#1}}
 
+
+
+
+\NewDocumentCommand{\linkgithub}{O{false} O{0.5} m}{%
+  \href{https://github.com/Kjelseth/EEK_lab}{%
+    #3
+    \IfEqCase{#1}{%
+      {true}{%
+        \raisebox{-.5\height + .5\ht\strutbox}{%
+          \includegraphics[scale=#2]{github-mark.png}%
+        }%
+      }%
+    }[\relax]%
+  }%
+}
