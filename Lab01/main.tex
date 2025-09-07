@@ -1,34 +1,40 @@
 \documentclass{article}
 
+%================  CUSTOMIZATION  =================================================%
+
 \usepackage{../KjelsethReportStyle}
 
-%   ############################## Customisation ##############################
+%================  METADATA  ======================================================%
 
-% Document metadata
-\title{\fontsize{24}{36}\selectfont Elektroniske enheter og kretser\\ %Edit title here \\ means new line
-Lab 01} % Line 2 of title, its not subtitle, that is possible to, google it
-\author{{\ttfamily Sølve Kjelseth}} % Input your name, replace \ttfamily with \normalfont to make it not monospaced but regular font (removing \ttfamily will not do this because of the monospaced font inside tables command, and author is technically a 1x1 table)
-\date{\today} % Auto updates the date, untill you export it, replace with hardcoded date if you need
+\title{\fontsize{24}{36}\selectfont Elektroniske enheter og kretser\\ % Input title
+Lab 01} % Line 2 of title, \\ means next line.
 
-%   ############################## Document begins here ##############################
+\author{{\ttfamily Sølve Kjelseth}} % Input your name.
+% replace \ttfamily with \normalfont to make it regular font.
+% (removing \ttfamily will not do this automatically.
+
+\date{\today} % Auto updates the date, untill you export it.
+
+
+%================  START OF DOCUMENT  =============================================%
+
 \begin{document}
 
 \maketitle % Makes title front page based on the title, author and date metadata, change at the top
 
+%================  SECTION  =======================================================%
 
-
-%   ############################## Section ##############################
 \addtocontents{toc}{\protect\setcounter{tocdepth}{0}} % Temporarily hide from TOC
 \section{Introduction} % Numbered section named Introduction
 This is the first report in this course, detailing the completion of the first lab exercise.\par
-Note: As always, the \LaTeX\ code is open source, see
-\linkgithub{my GitHub {
-\begingroup
-\setbox0=\hbox{\includegraphics[scale=0.5]{github-mark.png}}%
-\parbox{\wd0}{\box0}
-\endgroup}}
+\vfill
+Note: As always, the \LaTeX\ file and all other assets, such as text, images, graphs and code made by me for this project is open source with the MIT licence, see
+\linkgithub[true][0.5]{my GitHub}
 
 \clearpage
+
+%================  SECTION  =======================================================%
+
 \tableofcontents % Generate TOC
 \hfill
 \listoffigures % List of figures
@@ -36,10 +42,9 @@ Note: As always, the \LaTeX\ code is open source, see
 \listoftables % List of tables
 \addtocontents{toc}{\protect\setcounter{tocdepth}{2}} % Restore TOC depth
 
+%================  SECTION  =======================================================%
 
-
-%   ############################## Section ##############################
 \section{Part 1}
-This Part is about..
+This Part is about.. 
 
 \end{document}

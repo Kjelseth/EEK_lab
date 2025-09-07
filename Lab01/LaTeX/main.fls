@@ -91,6 +91,12 @@ INPUT /Users/g_tec/Library/texlive/2025/texmf-var/luatex-cache/generic/fonts/otl
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/xstring/xstring.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/xstring/xstring.tex
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/xifthen/xifthen.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tools/calc.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/ifthen.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
@@ -205,7 +211,6 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/units/units.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/ifthen.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/units/nicefrac.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.tex
