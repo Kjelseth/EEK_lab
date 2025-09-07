@@ -20,6 +20,7 @@
 
 \tcbuselibrary{listings, skins, breakable}  %Librarary to make code blocks multipage
 
+\graphicspath{{Figures/}{../Common_assets/}}
 
 %   ############################## Customisation ##############################
 
@@ -68,9 +69,6 @@
 \setcounter{section}{-1}  % Start section numbering from 0, delete this to start from 1
 
 
-\newcounter{codeblock} % Define new counter
-\renewcommand{\thecodeblock}{\arabic{section}.\arabic{codeblock}} % Define numbering format
-
 % Makes section monospace font and start each subsection from 0 and figure number
 \let\oldsection\section
 \renewcommand{\section}[1]{%
@@ -78,7 +76,6 @@
   \setcounter{subsection}{-1} % Makes subsection start from 0, delete this line to start from 1
   \setcounter{figure}{-1} % Makes figure numbers start from 0, delete this line to start from 1
   \setcounter{table}{-1} % Makes table numbers start from 0, delete this line to start from 1
-  \setcounter{codeblock}{-1}
 }
 
 
@@ -272,12 +269,12 @@
 
 \newcommand{\writecode}[3][Example Code]{%
     \par\medskip % Adds some vertical spacing before the caption
-    \refstepcounter{codeblock} % Step the figure counter
+    \refstepcounter{figure} % Step the figure counter
     \label{Code:#2} % Unique label for referencing
     \begin{center} % Center the caption
-        Code \thecodeblock: #3 % Fake caption
+        Figure \thecodeblock: #3 % Fake caption
     \end{center}
-    \addcontentsline{lof}{figure}{Code \thecodeblock: #3} % Manually add entry to List of Figures
+    \addcontentsline{lof}{figure}{\thecodeblock: #3} % Manually add entry to List of Figures
     \par\medskip % Adds some vertical spacing after the caption before the code block
     \begin{codeBlock}{#1}% arg 1 (default Example Code) will be written in the top right corner box
         \lstinputlisting[style=#1]{Code/#2}% arg 1 style is used and arg 2 is filename
@@ -287,16 +284,5 @@
 
 
 
-
-\newcommand{\figcaption}[1]{%
-    \caption[]{#1} % Suppress the default entry in LoF
-    \addcontentsline{lof}{figure}{Figure \thefigure: #1} % Manually add the correct format
-}
-
-\newcommand{\tabcaption}[1]{%
-    \caption[]{#1} % Suppress the default entry in LoT
-    \addcontentsline{lot}{table}{Table \thetable: #1} % Manually add the correct format
-}
-
-\newcommand{\linkgithub}[1]{\href{https://github.com/Kjelseth/PLK_lab.git}{#1}}
+\newcommand{\linkgithub}[1]{\href{https://github.com/Kjelseth/EEK_lab}{#1}}
 
