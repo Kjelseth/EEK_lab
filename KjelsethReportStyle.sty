@@ -294,9 +294,9 @@
 
 \NewDocumentCommand{\linkgithub}{O{false} O{0.5} m}{%
   \href{https://github.com/Kjelseth/EEK_lab}{%
-    #3
+    #3%
     \IfEqCase{#1}{%
-      {true}{%
+      {true}{
         \raisebox{-.5\height + .5\ht\strutbox}{%
           \includegraphics[scale=#2]{github-mark.png}%
         }%
