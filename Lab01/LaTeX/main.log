@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.9.5)  7 SEP 2025 22:27
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.9.5)  8 SEP 2025 13:42
  restricted system commands enabled.
  file:line:error style messages enabled.
 **/Users/g_tec/Git/EEK_lab/Lab01/main.tex
@@ -835,7 +835,7 @@ Package hyperref Info: Link coloring ON on input line 21.
 \@outlinefile=\write5
 
 \openout5 = main.out
-<../Common_assets/github-mark.png, id=28, 48.18pt x 48.18pt>
+<../Common_assets/github-mark.png, id=32, 48.18pt x 48.18pt>
 File: ../Common_assets/github-mark.png Graphic file (type png)
 <use ../Common_assets/github-mark.png>
 Package luatex.def Info: ../Common_assets/github-mark.png  used on input line 32.
@@ -861,8 +861,18 @@ Package luatex.def Info: ../Common_assets/github-mark.png  used on input line 32
 [2
 
 ]
+<Figures/Part1.jpg, id=55, 2163.08125pt x 1317.92375pt>
+File: Figures/Part1.jpg Graphic file (type jpg)
+<use Figures/Part1.jpg>
+Package luatex.def Info: Figures/Part1.jpg  used on input line 53.
+(luatex.def)             Requested size: 426.79135pt x 260.02063pt.
+
 
 [3
+
+<./Figures/Part1.jpg>]
+
+[4
 
 ] (./LaTeX/main.aux)
  ***********
@@ -870,23 +880,23 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 47734C4BDF3393266FDE5E3A98799969;598.
+(rerunfilecheck)             Checksum: 92ABE37E69946148F37C31DF81646F9A;917.
 )
 
 Here is how much of LuaTeX's memory you used:
- 30569 strings out of 475506
+ 30600 strings out of 475506
  125086,1373583 words of node,token memory allocated
  535 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 8 attribute, 60 glue_spec, 8 attribute_list, 2 write nodes
-   avail lists: 1:1,2:180,3:79,4:35,5:69,6:22,7:1371,8:2,9:182,10:4,11:48
- 52840 multiletter control sequences out of 65536+600000
+   avail lists: 1:1,2:279,3:95,4:48,5:82,6:22,7:1371,8:2,9:230,10:4,11:48
+ 52864 multiletter control sequences out of 65536+600000
  61 fonts using 15334175 bytes
- 113i,7n,110p,1223b,338s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</System/Library/Fonts/Supplemental/Times New Roman Bold.ttf></usr/local/texlive/2025/texmf-dist/fonts/opentype/SIL/jetbrainsmono-otf/JetBrainsMono-Bold.otf></Users/g_tec/Library/Fonts/JetBrainsMono[wght].ttf></System/Library/Fonts/Supplemental/Times New Roman.ttf>
-Output written on main.pdf (3 pages, 68245 bytes).
+ 113i,10n,110p,1223b,355s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</System/Library/Fonts/Supplemental/Times New Roman Bold.ttf></usr/local/texlive/2025/texmf-dist/fonts/opentype/SIL/jetbrainsmono-otf/JetBrainsMono-Bold.otf></Users/g_tec/Library/Fonts/JetBrainsMono[wght].ttf></System/Library/Fonts/Supplemental/Times New Roman.ttf></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+Output written on main.pdf (4 pages, 806737 bytes).
 
-PDF statistics: 79 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 131072)
- 56 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 107 PDF objects out of 1000 (max. 8388607)
+ 82 compressed objects within 1 object stream
+ 13 named destinations out of 1000 (max. 131072)
+ 64 words of extra memory for PDF output out of 10000 (max. 100000000)
 
