@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.9.5)  8 SEP 2025 13:54
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.9.5)  8 SEP 2025 22:02
  restricted system commands enabled.
  file:line:error style messages enabled.
 **/Users/g_tec/Git/EEK_lab/Lab01/main.tex
@@ -613,21 +613,46 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \mathdisplay@stack=\toks43
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/units/units.sty
-Package: units 1998/08/04 v0.9b Typesetting units
- (/usr/local/texlive/2025/texmf-dist/tex/latex/units/nicefrac.sty
-Package: nicefrac 1998/08/04 v0.9b Nice fractions
-\L@UnitsRaiseDisplaystyle=\skip65
-\L@UnitsRaiseTextstyle=\skip66
-\L@UnitsRaiseScriptstyle=\skip67
-)) (/usr/local/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/siunitx/siunitx.sty
+Package: siunitx 2025-02-27 v3.4.6 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count350
+\l__siunitx_number_exponent_fixed_int=\count351
+\l__siunitx_number_min_decimal_int=\count352
+\l__siunitx_number_min_integer_int=\count353
+\l__siunitx_number_round_precision_int=\count354
+\l__siunitx_number_lower_threshold_int=\count355
+\l__siunitx_number_upper_threshold_int=\count356
+\l__siunitx_number_group_first_int=\count357
+\l__siunitx_number_group_size_int=\count358
+\l__siunitx_number_group_minimum_int=\count359
+\l__siunitx_angle_tmp_dim=\dimen296
+\l__siunitx_angle_marker_box=\box80
+\l__siunitx_angle_unit_box=\box81
+\l__siunitx_compound_count_int=\count360
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/translations/translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
+)
+\l__siunitx_table_tmp_box=\box82
+\l__siunitx_table_tmp_dim=\dimen297
+\l__siunitx_table_column_width_dim=\dimen298
+\l__siunitx_table_integer_box=\box83
+\l__siunitx_table_decimal_box=\box84
+\l__siunitx_table_uncert_box=\box85
+\l__siunitx_table_before_box=\box86
+\l__siunitx_table_after_box=\box87
+\l__siunitx_table_before_dim=\dimen299
+\l__siunitx_table_carry_dim=\dimen300
+\l__siunitx_unit_tmp_int=\count361
+\l__siunitx_unit_position_int=\count362
+\l__siunitx_unit_total_int=\count363
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
 Library (tcolorbox): 'tcblistings.code.tex' version '6.4.1'
 (/usr/local/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.tex
 Library (tcolorbox): 'tcblistingscore.code.tex' version '6.4.1'
 (/usr/local/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
 Library (tcolorbox): 'tcbprocessing.code.tex' version '6.4.1'
 )
-\c@tcblisting=\count350
+\c@tcblisting=\count364
 )) (/usr/local/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
 Library (tcolorbox): 'tcbskins.code.tex' version '6.4.1'
 (/usr/local/texlive/2025/texmf-dist/tex/latex/tikzfill/tikzfill.image.sty
@@ -636,7 +661,7 @@ Package: tikzfill.image 2023/08/08 v1.0.1 Image filling library for TikZ
 Package: tikzfill-common 2023/08/08 v1.0.1 Auxiliary code for tikzfill
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/tikzfill/tikzlibraryfill.image.code.tex
 File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
-\l__tikzfill_img_box=\box80
+\l__tikzfill_img_box=\box88
 )) (/usr/local/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
 Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.4.1'
 )) (/usr/local/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
@@ -645,9 +670,9 @@ Library (tcolorbox): 'tcbbreakable.code.tex' version '6.4.1'
 Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
 )
 Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
-\tcb@testbox=\box81
-\tcb@totalupperbox=\box82
-\tcb@totallowerbox=\box83
+\tcb@testbox=\box89
+\tcb@totalupperbox=\box90
+\tcb@totallowerbox=\box91
  (/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 ))
@@ -689,9 +714,11 @@ Package fontspec Info:
 (fontspec)             <->"name:JetBrains
 (fontspec)             Mono/BI:mode=node;script=latn;language=dflt;"
 
-Package hyperref Info: Option `colorlinks' set `true' on input line 53.
-\c@tcb@cnt@codeBlock=\count351
-) (./LaTeX/main.aux)
+Package hyperref Info: Option `colorlinks' set `true' on input line 55.
+\c@tcb@cnt@codeBlock=\count365
+)
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 21.
+ (./LaTeX/main.aux)
 \openout1 = main.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
@@ -716,16 +743,16 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
  (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count352
-\scratchdimen=\dimen296
-\scratchbox=\box84
-\nofMPsegments=\count353
-\nofMParguments=\count354
+\scratchcounter=\count366
+\scratchdimen=\dimen301
+\scratchbox=\box92
+\nofMPsegments=\count367
+\nofMParguments=\count368
 \everyMPshowfont=\toks44
-\MPscratchCnt=\count355
-\MPscratchDim=\dimen297
-\MPnumerator=\count356
-\makeMPintoPDFobject=\count357
+\MPscratchCnt=\count369
+\MPscratchDim=\dimen302
+\MPnumerator=\count370
+\makeMPintoPDFobject=\count371
 \everyMPtoPDFconversion=\toks45
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -737,7 +764,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count358
+\c@lstlisting=\count372
 
 Package fontspec Info: 
 (fontspec)             Adjusting the maths setup (use [no-math] to avoid
@@ -835,7 +862,11 @@ Package hyperref Info: Link coloring ON on input line 21.
 \@outlinefile=\write5
 
 \openout5 = main.out
-<../Common_assets/github-mark.png, id=32, 48.18pt x 48.18pt>
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 21.
+<../Common_assets/github-mark.png, id=40, 48.18pt x 48.18pt>
 File: ../Common_assets/github-mark.png Graphic file (type png)
 <use ../Common_assets/github-mark.png>
 Package luatex.def Info: ../Common_assets/github-mark.png  used on input line 32.
@@ -861,58 +892,107 @@ Package luatex.def Info: ../Common_assets/github-mark.png  used on input line 32
 [2
 
 ]
-<Figures/Part1.jpg, id=59, 2163.08125pt x 1317.92375pt>
+<Figures/Part1.jpg, id=81, 2163.08125pt x 1317.92375pt>
 File: Figures/Part1.jpg Graphic file (type jpg)
 <use Figures/Part1.jpg>
 Package luatex.def Info: Figures/Part1.jpg  used on input line 54.
-(luatex.def)             Requested size: 341.43437pt x 208.01651pt.
+(luatex.def)             Requested size: 426.79135pt x 260.02063pt.
 
 
 [3
 
 <./Figures/Part1.jpg>]
-<Figures/Part2.jpg, id=66, 2454.16875pt x 2065.7175pt>
+<Figures/Part2.jpg, id=88, 2454.16875pt x 2065.7175pt>
 File: Figures/Part2.jpg Graphic file (type jpg)
 <use Figures/Part2.jpg>
-Package luatex.def Info: Figures/Part2.jpg  used on input line 84.
-(luatex.def)             Requested size: 341.43437pt x 287.3703pt.
+Package luatex.def Info: Figures/Part2.jpg  used on input line 87.
+(luatex.def)             Requested size: 426.79135pt x 359.23653pt.
 
 
 [4
 
 <./Figures/Part2.jpg>]
-<Figures/Part2Plot.png, id=74, 505.89pt x 361.35pt>
+<Figures/Part2Plot.png, id=96, 505.89pt x 361.35pt>
 File: Figures/Part2Plot.png Graphic file (type png)
 <use Figures/Part2Plot.png>
-Package luatex.def Info: Figures/Part2Plot.png  used on input line 95.
+Package luatex.def Info: Figures/Part2Plot.png  used on input line 98.
 (luatex.def)             Requested size: 426.79135pt x 304.85522pt.
 
 
 [5
 
-<./Figures/Part2Plot.png>] (./LaTeX/main.aux)
+<./Figures/Part2Plot.png>]
+<Figures/Part2PlotExtended.png, id=104, 505.89pt x 361.35pt>
+File: Figures/Part2PlotExtended.png Graphic file (type png)
+<use Figures/Part2PlotExtended.png>
+Package luatex.def Info: Figures/Part2PlotExtended.png  used on input line 111.
+(luatex.def)             Requested size: 426.79135pt x 304.85522pt.
+
+
+[6
+
+<./Figures/Part2PlotExtended.png>]
+<Figures/Part3.jpg, id=110, 1884.03876pt x 1956.30875pt>
+File: Figures/Part3.jpg Graphic file (type jpg)
+<use Figures/Part3.jpg>
+Package luatex.def Info: Figures/Part3.jpg  used on input line 125.
+(luatex.def)             Requested size: 426.79135pt x 443.13556pt.
+
+
+[7
+
+<./Figures/Part3.jpg>]
+
+[8
+
+]
+<Figures/Part4.jpg, id=119, 2269.47874pt x 1635.10875pt>
+File: Figures/Part4.jpg Graphic file (type jpg)
+<use Figures/Part4.jpg>
+Package luatex.def Info: Figures/Part4.jpg  used on input line 167.
+(luatex.def)             Requested size: 426.79135pt x 307.48033pt.
+
+
+[9
+
+<./Figures/Part4.jpg>]
+<Figures/Part4_FirstLight.jpg, id=124, 1772.6225pt x 1772.6225pt>
+File: Figures/Part4_FirstLight.jpg Graphic file (type jpg)
+<use Figures/Part4_FirstLight.jpg>
+Package luatex.def Info: Figures/Part4_FirstLight.jpg  used on input line 201.
+(luatex.def)             Requested size: 188.2158pt x 188.20003pt.
+<Figures/Part4_FullyOn.jpg, id=125, 1590.94376pt x 1590.94376pt>
+File: Figures/Part4_FullyOn.jpg Graphic file (type jpg)
+<use Figures/Part4_FullyOn.jpg>
+Package luatex.def Info: Figures/Part4_FullyOn.jpg  used on input line 207.
+(luatex.def)             Requested size: 188.2158pt x 188.21039pt.
+
+
+[10
+
+<./Figures/Part4_FirstLight.jpg><./Figures/Part4_FullyOn.jpg>] (./LaTeX/main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 92ABE37E69946148F37C31DF81646F9A;917.
+(rerunfilecheck)             Checksum: C4F05620AAE4015C8908A89EF6116D11;1274.
 )
 
 Here is how much of LuaTeX's memory you used:
- 30629 strings out of 475506
+ 34488 strings out of 475506
  125086,1373583 words of node,token memory allocated
- 535 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 8 attribute, 60 glue_spec, 8 attribute_list, 2 write nodes
-   avail lists: 1:1,2:295,3:115,4:64,5:98,6:28,7:1371,8:2,9:230,10:5,11:48
- 52884 multiletter control sequences out of 65536+600000
- 61 fonts using 15334175 bytes
- 113i,10n,110p,1223b,361s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 531 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 7 attribute, 60 glue_spec, 7 attribute_list, 2 write nodes
+   avail lists: 1:1,2:485,3:195,4:120,5:162,6:52,7:1884,8:10,9:286,10:6,11:114
+ 56710 multiletter control sequences out of 65536+600000
+ 66 fonts using 16140031 bytes
+ 113i,11n,110p,1223b,919s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </System/Library/Fonts/Supplemental/Times New Roman Bold.ttf></usr/local/texlive/2025/texmf-dist/fonts/opentype/SIL/jetbrainsmono-otf/JetBrainsMono-Bold.otf></Users/g_tec/Library/Fonts/JetBrainsMono[wght].ttf></System/Library/Fonts/Supplemental/Times New Roman.ttf></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on main.pdf (5 pages, 2148596 bytes).
+Output written on main.pdf (10 pages, 5628639 bytes).
 
-PDF statistics: 118 PDF objects out of 1000 (max. 8388607)
- 89 compressed objects within 1 object stream
- 16 named destinations out of 1000 (max. 131072)
- 64 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 169 PDF objects out of 1000 (max. 8388607)
+ 128 compressed objects within 2 object streams
+ 29 named destinations out of 1000 (max. 131072)
+ 80 words of extra memory for PDF output out of 10000 (max. 100000000)
 
