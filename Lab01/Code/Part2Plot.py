@@ -2,7 +2,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # V_D values
-x_values = [0.507,
+x_values = [0, # Extended to origin
+            0.507,
             0.538,
             0.556,
             0.57,
@@ -18,7 +19,8 @@ x_values = [0.507,
             0.689]
 
 # I_D calues
-y_values = [0.107356066,
+y_values = [0, # Extended to origin
+            0.107356066,
             0.209349388,
             0.304664576,
             0.403723566,
