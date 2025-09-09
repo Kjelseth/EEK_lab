@@ -105,7 +105,7 @@ plt.plot(y1, y3, color="purple", linestyle="-", alpha=0.7)
 slope3, intercept3, r2_3, model3 = linear_fit(y1, y3)
 x_line2 = np.linspace(y1[SKIP_POINTS], y1[-1], 100).reshape(-1, 1)
 plt.plot(x_line2, model3.predict(x_line2), color="blue", linestyle="--",
-         label=f"Fit: slope={slope3:.3f}, $R^2$={r2_3:.3f}")
+         label=f"$I_D$ fit: slope={slope3:.3f}, $R^2$={r2_3:.3f}")
 
 # Labels & formatting
 plt.xlabel(r"$V_{D}$ (V)", fontsize=12)
@@ -128,7 +128,7 @@ plt.bar(x, percent_VD, bottom=percent_VR, color="purple", label=r"$V_D$ % of E")
 # Labels & formatting
 plt.xlabel(r"$E$ (V)", fontsize=12)
 plt.ylabel("Percentage of E (%)", fontsize=12)
-plt.title("Stacked soltages as percentage of source voltage", fontsize=14)
+plt.title("Stacked voltages as percentage of source voltage", fontsize=14)
 plt.legend()
 plt.ylim(0, 110)
 plt.grid(axis="y", linestyle="--", alpha=0.6)
