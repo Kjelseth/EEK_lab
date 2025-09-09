@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.9.5)  9 SEP 2025 23:09
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.9.5)  9 SEP 2025 23:37
  restricted system commands enabled.
  file:line:error style messages enabled.
 **/Users/g_tec/Git/EEK_lab/Lab01/main.tex
@@ -990,7 +990,7 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 8BAF486316D695A3B46931BDA9B6C186;1484.
+(rerunfilecheck)             Checksum: E4AB364F6602DF099A3A7C39EF079D01;1469.
 )
 
 Here is how much of LuaTeX's memory you used:
@@ -998,12 +998,12 @@ Here is how much of LuaTeX's memory you used:
  125086,1373583 words of node,token memory allocated
  531 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 7 attribute, 60 glue_spec, 7 attribute_list, 2 write nodes
-   avail lists: 1:2,2:615,3:225,4:140,5:186,6:61,7:1884,8:10,9:633,10:6,11:114
+   avail lists: 1:2,2:615,3:225,4:140,5:186,6:61,7:1886,8:10,9:633,10:6,11:116
  56726 multiletter control sequences out of 65536+600000
  66 fonts using 16140031 bytes
  113i,11n,110p,1223b,919s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </System/Library/Fonts/Supplemental/Times New Roman Bold.ttf></usr/local/texlive/2025/texmf-dist/fonts/opentype/SIL/jetbrainsmono-otf/JetBrainsMono-Bold.otf></Users/g_tec/Library/Fonts/JetBrainsMono[wght].ttf></System/Library/Fonts/Supplemental/Times New Roman.ttf></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on main.pdf (12 pages, 5663534 bytes).
+Output written on main.pdf (12 pages, 5663350 bytes).
 
 PDF statistics: 196 PDF objects out of 1000 (max. 8388607)
  151 compressed objects within 2 object streams

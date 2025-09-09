@@ -5,7 +5,7 @@
 \contentsline {subsection}{\numberline {\texttt {0.2.}}\texttt {List of Tables}}{2}{subsection.0.2}%
 \setcounter {tocdepth}{2}
 \contentsline {section}{\numberline {\texttt {1.}}\texttt {Part 1 - Diode test}}{3}{section.1}%
-\contentsline {section}{\numberline {\texttt {2.}}\texttt {Part 2 - Forward-bias charachteristics}}{4}{section.2}%
+\contentsline {section}{\numberline {\texttt {2.}}\texttt {Part 2 - Forward-bias characteristics}}{4}{section.2}%
 \contentsline {section}{\numberline {\texttt {3.}}\texttt {Part 3 - Reverse-bias}}{8}{section.3}%
-\contentsline {section}{\numberline {\texttt {4.}}\texttt {Part 4 - LED charachteristics}}{10}{section.4}%
-\contentsline {section}{\numberline {\texttt {5.}}\texttt {Part 5 - Zener charachteristics}}{12}{section.5}%
+\contentsline {section}{\numberline {\texttt {4.}}\texttt {Part 4 - LED characteristics}}{10}{section.4}%
+\contentsline {section}{\numberline {\texttt {5.}}\texttt {Part 5 - Zener characteristics}}{12}{section.5}%

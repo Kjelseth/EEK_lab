@@ -1,0 +1,46 @@
+{
+  // ===== Code Spell Checker (cSpell) =====
+  "cSpell.language": "en-GB",               // Default to UK English
+  "cSpell.enabled": true,
+  "cSpell.enabledFileTypes": {
+    "latex": true,
+    "tex": true
+  },
+  "cSpell.languageSettings": [
+    {
+      "languageId": "latex",
+      "locale": "en-GB"                      // UK English for LaTeX
+    }
+  ],
+  "cSpell.ignoreRegExpList": [
+    "\\\\[a-zA-Z]+",                         // Ignore LaTeX commands
+    "\\$.*?\\$",                              // Ignore math expressions
+    "\\{.*?\\}"                               // Ignore inline arguments
+  ],
+
+  // ===== LanguageTool Linter (ltex) =====
+  "ltex.enabled": ["latex"],
+  "ltex.language": "en-GB",                  // Default UK English
+  "ltex.checkFrequency": "onType",           // 'onSave' if large files
+  "ltex.ignoreRegExps": [
+    "\\\\[a-zA-Z]+",                         // Ignore LaTeX commands
+    "\\$.*?\\$",                              // Ignore math
+    "\\{.*?\\}"                               // Ignore inline arguments
+  ],
+  "ltex.diagnosticSeverity": {
+    "spelling": "information",
+    "grammar": "warning",
+    "style": "hint"
+  },
+
+  // ===== Multi-language support =====
+  "[latex]": {
+    "cSpell.language": "en-GB",
+    "ltex.language": "en-GB"
+  }
+
+  // Example: Per-file Norwegian override in a .tex file:
+  // Add at top of file:
+  // % !LTeX lang=no
+  // % cSpell:no
+}
