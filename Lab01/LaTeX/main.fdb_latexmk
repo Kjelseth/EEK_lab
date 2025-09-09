@@ -1,10 +1,10 @@
 # Fdb version 4
-["lualatex"] 1757361720.08284 "/Users/g_tec/Git/EEK_lab/Lab01/main.tex" "LaTeX/main.pdf" "main" 1757361721.55896 0
+["lualatex"] 1757402629.55282 "/Users/g_tec/Git/EEK_lab/Lab01/main.tex" "LaTeX/main.pdf" "main" 1757402631.12985 0
   "../Common_assets/github-mark.png" 1757103543.84081 6393 43ce87609eb221d09d4832a9c0e709d0 ""
-  "../KjelsethReportStyle.sty" 1757361544.44922 13073 8b43871461c1792cc675ae426d0c9d5c ""
+  "../KjelsethReportStyle.sty" 1757399213.94788 12991 18781e6bc1edfc291c928cddde503cd0 ""
   "/System/Library/Fonts/Supplemental/Times New Roman Bold.ttf" 1755369869 832472 47e2cfe6c7f2d721956ff54f0ef18585 ""
   "/System/Library/Fonts/Supplemental/Times New Roman.ttf" 1755369869 824920 4aa25ae5255896a14e6982eef8a0ee75 ""
-  "/Users/g_tec/Git/EEK_lab/Lab01/main.tex" 1757361719.88862 7776 f438b1f6c284a55b6c373f75c8bed85a ""
+  "/Users/g_tec/Git/EEK_lab/Lab01/main.tex" 1757402629.29658 9317 6708fd4af74da831ad82c71b4db6940c ""
   "/Users/g_tec/Library/Fonts/JetBrainsMono[wght].ttf" 1673702402 303144 4e546cf31f9ad0c6c43a0c9abbc9f9d4 ""
   "/Users/g_tec/Library/texlive/2025/texmf-var/luatex-cache/generic/fonts/otl/jetbrainsmono-bold.luc" 1757097108.92068 315959 38c0c93ee65b715a7727b40ff9faf98e ""
   "/Users/g_tec/Library/texlive/2025/texmf-var/luatex-cache/generic/fonts/otl/jetbrainsmono-bolditalic.luc" 1757097108.85488 317233 265d7e3d1b6a270783b4222c3103ef37 ""
@@ -259,12 +259,12 @@
   "Figures/Part4.jpg" 1757361054.17913 1136292 9f04bf7b4a25c909ead3bdd5a5a65f91 ""
   "Figures/Part4_FirstLight.jpg" 1757324908.73341 570241 a40c16c77aee7e93c09f7016423475c9 ""
   "Figures/Part4_FullyOn.jpg" 1757324915.08237 661292 05e289fb39b316105f79f2d14842a579 ""
-  "LaTeX/main.aux" 1757361721.40229 3680 3ab60b32b0a6bbfad3f7e286dc4379fe "lualatex"
-  "LaTeX/main.lof" 1757361721.40341 721 2550652cd4797966b8a845b13f0e3f0b "lualatex"
-  "LaTeX/main.lot" 1757361721.40346 265 658675463128eb5a6062eb49ba8d131f "lualatex"
-  "LaTeX/main.out" 1757361721.40309 1274 c4f05620aae4015c8908a89ef6116d11 "lualatex"
-  "LaTeX/main.toc" 1757361721.40334 863 4f72cfc49396faf294251c6e716ef54f "lualatex"
-  "main.tex" 1757361719.88862 7776 f438b1f6c284a55b6c373f75c8bed85a ""
+  "LaTeX/main.aux" 1757402630.94605 4276 d85e437f8ac105d5dec12f9bc3996f42 "lualatex"
+  "LaTeX/main.lof" 1757402630.94714 721 2550652cd4797966b8a845b13f0e3f0b "lualatex"
+  "LaTeX/main.lot" 1757402630.94717 381 c8896ef1dcd461044cf92800be8148bc "lualatex"
+  "LaTeX/main.out" 1757402630.94691 1484 8baf486316d695a3b46931bda9b6c186 "lualatex"
+  "LaTeX/main.toc" 1757402630.94712 972 d76a1181b34a80730d3d287f0d8dc955 "lualatex"
+  "main.tex" 1757402629.29658 9317 6708fd4af74da831ad82c71b4db6940c ""
   (generated)
   "LaTeX/main.aux"
   "LaTeX/main.lof"

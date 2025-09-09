@@ -8,3 +8,4 @@
 \contentsline {section}{\numberline {\texttt {2.}}\texttt {Part 2 - Forward-bias charachteristics}}{4}{section.2}%
 \contentsline {section}{\numberline {\texttt {3.}}\texttt {Part 3 - Reverse-bias}}{7}{section.3}%
 \contentsline {section}{\numberline {\texttt {4.}}\texttt {Part 4 - LED charachteristics}}{9}{section.4}%
+\contentsline {section}{\numberline {\texttt {5.}}\texttt {Part 5 - Zener charachteristics}}{11}{section.5}%
