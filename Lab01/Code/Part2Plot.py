@@ -3,6 +3,12 @@ import numpy as np
 from scipy.optimize import curve_fit
 from sklearn.metrics import r2_score
 
+# ==============================
+# CONFIGURATION
+# Number of first datapoints to skip for Plot 1.
+SKIP_POINTS = 1
+# ==============================
+
 # V_D values
 x_values = [0.000, # Extended to origin
             0.507,
@@ -41,13 +47,25 @@ y_values = [0, # Extended to origin
 x = np.array(x_values)
 y = np.array(y_values)
 
-# --- Plot 1: Original data only ---
+# --- Plot 1: Data only, skip first SKIP_POINTS ---
+plt.figure(figsize=(7,5))
+plt.scatter(x[SKIP_POINTS:], y[SKIP_POINTS:], color="purple", marker="o", label="$I_D$")
+plt.plot(x[SKIP_POINTS:], y[SKIP_POINTS:], color="purple", linestyle="-", alpha=0.7)
+plt.xlabel(r"$V_{D}$ (V)", fontsize=12)
+plt.ylabel(r"$I_{D}$ (mA)", fontsize=12)
+plt.title(f"Forward-bias characteristics", fontsize=14)
+plt.grid(True, linestyle="--", alpha=0.6)
+plt.legend()
+plt.tight_layout()
+plt.show()
+
+# --- Plot 2: Original data only ---
 plt.figure(figsize=(7,5))
 plt.scatter(x, y, color="purple", marker="o", label="$I_D$")
 plt.plot(x, y, color="purple", linestyle="-", alpha=0.7)
 plt.xlabel(r"$V_{D}$ (V)", fontsize=12)
 plt.ylabel(r"$I_{D}$ (mA)", fontsize=12)
-plt.title("Forward-bias characteristics (Data only)", fontsize=14)
+plt.title("Forward-bias characteristics extended", fontsize=14)
 plt.grid(True, linestyle="--", alpha=0.6)
 plt.legend()
 plt.tight_layout()
@@ -63,19 +81,23 @@ y_fit = exp_func(x, *params)
 
 # Calculate R^2
 r2 = r2_score(y, y_fit)
-
-# Format 'a' in scientific notation automatically
 a_sci = "{:.2e}".format(params[0])
 
-# --- Plot 2: Data + Exponential Regression ---
+# --- Plot 3: Data + Smooth Exponential Regression ---
 plt.figure(figsize=(7,5))
 plt.scatter(x, y, color="purple", marker="o", label="$I_D$")
 plt.plot(x, y, color="purple", linestyle="-", alpha=0.7)
-plt.plot(x, y_fit, color="blue", linestyle="--",
+
+# Generate dense x-values for smooth curve
+x_smooth = np.linspace(x.min(), x.max(), 500)
+y_smooth = exp_func(x_smooth, *params)
+
+plt.plot(x_smooth, y_smooth, color="blue", linestyle="--",
          label=f"$I_D$ fit: exp = {a_sci}·e^({params[1]:.3f}·$V_D$)\n$R^2$ = {r2:.4f}")
+
 plt.xlabel(r"$V_{D}$ (V)", fontsize=12)
 plt.ylabel(r"$I_{D}$ (mA)", fontsize=12)
-plt.title("Forward-bias characteristics (With regression)", fontsize=14)
+plt.title("Forward-bias characteristics with regression", fontsize=14)
 plt.grid(True, linestyle="--", alpha=0.6)
 plt.legend()
 plt.tight_layout()
