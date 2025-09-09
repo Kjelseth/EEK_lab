@@ -37,7 +37,12 @@
   "[latex]": {
     "cSpell.language": "en-GB",
     "ltex.language": "en-GB"
-  }
+  },
+  "cSpell.words": [
+    "Elektroniske",
+    "enheter",
+    "kretser"
+  ]
 
   // Example: Per-file Norwegian override in a .tex file:
   // Add at top of file:
