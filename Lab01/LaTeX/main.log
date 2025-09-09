@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.9.5)  10 SEP 2025 00:05
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.9.5)  10 SEP 2025 01:14
  restricted system commands enabled.
  file:line:error style messages enabled.
 **/Users/g_tec/Git/EEK_lab/Lab01/main.tex
@@ -892,60 +892,60 @@ Package luatex.def Info: ../Common_assets/github-mark.png  used on input line 33
 [2
 
 ]
-<Figures/Part1.jpg, id=98, 2163.08125pt x 1317.92375pt>
+<Figures/Part1.jpg, id=104, 2163.08125pt x 1317.92375pt>
 File: Figures/Part1.jpg Graphic file (type jpg)
 <use Figures/Part1.jpg>
-Package luatex.def Info: Figures/Part1.jpg  used on input line 55.
+Package luatex.def Info: Figures/Part1.jpg  used on input line 56.
 (luatex.def)             Requested size: 426.79135pt x 260.02063pt.
 
 
 [3
 
 <./Figures/Part1.jpg>]
-<Figures/Part2.jpg, id=105, 2454.16875pt x 2065.7175pt>
+<Figures/Part2.jpg, id=111, 2454.16875pt x 2065.7175pt>
 File: Figures/Part2.jpg Graphic file (type jpg)
 <use Figures/Part2.jpg>
-Package luatex.def Info: Figures/Part2.jpg  used on input line 90.
+Package luatex.def Info: Figures/Part2.jpg  used on input line 92.
 (luatex.def)             Requested size: 426.79135pt x 359.23653pt.
 
 
 [4
 
 <./Figures/Part2.jpg>]
-<Figures/Part2Plot.png, id=113, 498.663pt x 354.123pt>
+<Figures/Part2Plot.png, id=119, 498.663pt x 354.123pt>
 File: Figures/Part2Plot.png Graphic file (type png)
 <use Figures/Part2Plot.png>
-Package luatex.def Info: Figures/Part2Plot.png  used on input line 101.
+Package luatex.def Info: Figures/Part2Plot.png  used on input line 103.
 (luatex.def)             Requested size: 426.79135pt x 303.08629pt.
 
 
 [5
 
 <./Figures/Part2Plot.png>]
-<Figures/Part2PlotExtended.png, id=121, 498.663pt x 354.123pt>
+<Figures/Part2PlotExtended.png, id=127, 498.663pt x 354.123pt>
 File: Figures/Part2PlotExtended.png Graphic file (type png)
 <use Figures/Part2PlotExtended.png>
-Package luatex.def Info: Figures/Part2PlotExtended.png  used on input line 114.
+Package luatex.def Info: Figures/Part2PlotExtended.png  used on input line 116.
 (luatex.def)             Requested size: 426.79135pt x 303.08629pt.
 
 
 [6
 
 <./Figures/Part2PlotExtended.png>]
-<Figures/Part2PlotExp.png, id=127, 498.663pt x 354.123pt>
+<Figures/Part2PlotExp.png, id=133, 498.663pt x 354.123pt>
 File: Figures/Part2PlotExp.png Graphic file (type png)
 <use Figures/Part2PlotExp.png>
-Package luatex.def Info: Figures/Part2PlotExp.png  used on input line 127.
+Package luatex.def Info: Figures/Part2PlotExp.png  used on input line 129.
 (luatex.def)             Requested size: 426.79135pt x 303.08629pt.
 
 
 [7
 
 <./Figures/Part2PlotExp.png>]
-<Figures/Part3.jpg, id=133, 1884.03876pt x 1956.30875pt>
+<Figures/Part3.jpg, id=139, 1884.03876pt x 1956.30875pt>
 File: Figures/Part3.jpg Graphic file (type jpg)
 <use Figures/Part3.jpg>
-Package luatex.def Info: Figures/Part3.jpg  used on input line 144.
+Package luatex.def Info: Figures/Part3.jpg  used on input line 146.
 (luatex.def)             Requested size: 426.79135pt x 443.13556pt.
 
 
@@ -956,75 +956,101 @@ Package luatex.def Info: Figures/Part3.jpg  used on input line 144.
 [9
 
 ]
-<Figures/Part4.jpg, id=142, 2269.47874pt x 1635.10875pt>
+<Figures/Part4.jpg, id=148, 2269.47874pt x 1635.10875pt>
 File: Figures/Part4.jpg Graphic file (type jpg)
 <use Figures/Part4.jpg>
-Package luatex.def Info: Figures/Part4.jpg  used on input line 188.
+Package luatex.def Info: Figures/Part4.jpg  used on input line 191.
 (luatex.def)             Requested size: 426.79135pt x 307.48033pt.
 
 
 [10
 
 <./Figures/Part4.jpg>]
-<Figures/Part4_FirstLight.jpg, id=149, 1772.6225pt x 1772.6225pt>
+<Figures/Part4_FirstLight.jpg, id=155, 1772.6225pt x 1772.6225pt>
 File: Figures/Part4_FirstLight.jpg Graphic file (type jpg)
 <use Figures/Part4_FirstLight.jpg>
-Package luatex.def Info: Figures/Part4_FirstLight.jpg  used on input line 225.
+Package luatex.def Info: Figures/Part4_FirstLight.jpg  used on input line 228.
 (luatex.def)             Requested size: 188.2158pt x 188.20003pt.
-<Figures/Part4_FullyOn.jpg, id=150, 1590.94376pt x 1590.94376pt>
+<Figures/Part4_FullyOn.jpg, id=156, 1590.94376pt x 1590.94376pt>
 File: Figures/Part4_FullyOn.jpg Graphic file (type jpg)
 <use Figures/Part4_FullyOn.jpg>
-Package luatex.def Info: Figures/Part4_FullyOn.jpg  used on input line 232.
+Package luatex.def Info: Figures/Part4_FullyOn.jpg  used on input line 235.
 (luatex.def)             Requested size: 188.2158pt x 188.21039pt.
 
 
 [11
 
 <./Figures/Part4_FirstLight.jpg><./Figures/Part4_FullyOn.jpg>]
-<Figures/Part4PlotVoltageDrops.png, id=159, 498.663pt x 354.123pt>
+<Figures/Part4PlotVoltageDrops.png, id=165, 498.663pt x 354.123pt>
 File: Figures/Part4PlotVoltageDrops.png Graphic file (type png)
 <use Figures/Part4PlotVoltageDrops.png>
-Package luatex.def Info: Figures/Part4PlotVoltageDrops.png  used on input line 270.
+Package luatex.def Info: Figures/Part4PlotVoltageDrops.png  used on input line 273.
 (luatex.def)             Requested size: 426.79135pt x 303.08629pt.
 
 
 [12
 
 <./Figures/Part4PlotVoltageDrops.png>]
-<Figures/Part4PlotPercent.png, id=166, 570.933pt x 354.123pt>
+<Figures/Part4PlotPercent.png, id=172, 570.933pt x 354.123pt>
 File: Figures/Part4PlotPercent.png Graphic file (type png)
 <use Figures/Part4PlotPercent.png>
-Package luatex.def Info: Figures/Part4PlotPercent.png  used on input line 281.
+Package luatex.def Info: Figures/Part4PlotPercent.png  used on input line 284.
 (luatex.def)             Requested size: 426.79135pt x 264.72702pt.
 
 
 [13
 
 <./Figures/Part4PlotPercent.png>]
-<Figures/Part4PlotStacked.png, id=172, 570.933pt x 354.123pt>
+<Figures/Part4PlotStacked.png, id=178, 570.933pt x 354.123pt>
 File: Figures/Part4PlotStacked.png Graphic file (type png)
 <use Figures/Part4PlotStacked.png>
-Package luatex.def Info: Figures/Part4PlotStacked.png  used on input line 292.
+Package luatex.def Info: Figures/Part4PlotStacked.png  used on input line 295.
 (luatex.def)             Requested size: 426.79135pt x 264.72702pt.
 
 
 [14
 
 <./Figures/Part4PlotStacked.png>]
-<Figures/Part4PlotCurrent.png, id=178, 498.663pt x 354.123pt>
+<Figures/Part4PlotCurrent.png, id=184, 498.663pt x 354.123pt>
 File: Figures/Part4PlotCurrent.png Graphic file (type png)
 <use Figures/Part4PlotCurrent.png>
-Package luatex.def Info: Figures/Part4PlotCurrent.png  used on input line 303.
+Package luatex.def Info: Figures/Part4PlotCurrent.png  used on input line 306.
 (luatex.def)             Requested size: 426.79135pt x 303.08629pt.
 
 
 [15
 
 <./Figures/Part4PlotCurrent.png>]
+<Figures/Part5.jpg, id=190, 2171.11125pt x 2147.02126pt>
+File: Figures/Part5.jpg Graphic file (type jpg)
+<use Figures/Part5.jpg>
+Package luatex.def Info: Figures/Part5.jpg  used on input line 324.
+(luatex.def)             Requested size: 426.79135pt x 422.02545pt.
+
 
 [16
 
-] (./LaTeX/main.aux)
+<./Figures/Part5.jpg>]
+<Figures/Part5PlotVoltageDrops.png, id=195, 498.663pt x 354.123pt>
+File: Figures/Part5PlotVoltageDrops.png Graphic file (type png)
+<use Figures/Part5PlotVoltageDrops.png>
+Package luatex.def Info: Figures/Part5PlotVoltageDrops.png  used on input line 337.
+(luatex.def)             Requested size: 426.79135pt x 303.08629pt.
+
+
+[17
+
+<./Figures/Part5PlotVoltageDrops.png>]
+<Figures/Part5PlotCurrent.png, id=201, 498.663pt x 354.123pt>
+File: Figures/Part5PlotCurrent.png Graphic file (type png)
+<use Figures/Part5PlotCurrent.png>
+Package luatex.def Info: Figures/Part5PlotCurrent.png  used on input line 350.
+(luatex.def)             Requested size: 426.79135pt x 303.08629pt.
+
+
+[18
+
+<./Figures/Part5PlotCurrent.png>] (./LaTeX/main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -1034,19 +1060,19 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 34572 strings out of 475506
+ 34616 strings out of 475506
  125086,1373583 words of node,token memory allocated
  531 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 7 attribute, 60 glue_spec, 7 attribute_list, 2 write nodes
-   avail lists: 1:1,2:657,3:265,4:172,5:218,6:73,7:2238,8:10,9:633,10:10,11:116
- 56766 multiletter control sequences out of 65536+600000
+   avail lists: 1:1,2:729,3:295,4:196,5:242,6:82,7:2502,8:10,9:633,10:10,11:110
+ 56796 multiletter control sequences out of 65536+600000
  66 fonts using 16140031 bytes
  113i,11n,110p,1223b,919s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </System/Library/Fonts/Supplemental/Times New Roman Bold.ttf></usr/local/texlive/2025/texmf-dist/fonts/opentype/SIL/jetbrainsmono-otf/JetBrainsMono-Bold.otf></Users/g_tec/Library/Fonts/JetBrainsMono[wght].ttf></System/Library/Fonts/Supplemental/Times New Roman.ttf></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on main.pdf (16 pages, 5798118 bytes).
+Output written on main.pdf (18 pages, 7304665 bytes).
 
-PDF statistics: 232 PDF objects out of 1000 (max. 8388607)
- 174 compressed objects within 2 object streams
- 42 named destinations out of 1000 (max. 131072)
+PDF statistics: 251 PDF objects out of 1000 (max. 8388607)
+ 186 compressed objects within 2 object streams
+ 47 named destinations out of 1000 (max. 131072)
  88 words of extra memory for PDF output out of 10000 (max. 100000000)
 
