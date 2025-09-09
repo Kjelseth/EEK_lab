@@ -1,5 +1,5 @@
 # Fdb version 4
-["lualatex"] 1757402629.55282 "/Users/g_tec/Git/EEK_lab/Lab01/main.tex" "LaTeX/main.pdf" "main" 1757402631.12985 0
+["lualatex"] 1757451470.55671 "/Users/g_tec/Git/EEK_lab/Lab01/main.tex" "LaTeX/main.pdf" "main" 1757451472.1889 0
   "../Common_assets/github-mark.png" 1757103543.84081 6393 43ce87609eb221d09d4832a9c0e709d0 ""
   "../KjelsethReportStyle.sty" 1757399213.94788 12991 18781e6bc1edfc291c928cddde503cd0 ""
   "/System/Library/Fonts/Supplemental/Times New Roman Bold.ttf" 1755369869 832472 47e2cfe6c7f2d721956ff54f0ef18585 ""
@@ -254,16 +254,16 @@
   "Figures/Part1.jpg" 1757324870.08824 709625 5ccf392abe4ac8d999e8fbfea1943adc ""
   "Figures/Part2.jpg" 1757324878.92481 1317496 6794688df7abf8a1b1b1d7f0f2358970 ""
   "Figures/Part2Plot.png" 1757332164.12422 33756 40ce118da55d3ced573d33c8f02d5ec0 ""
-  "Figures/Part2PlotExtended.png" 1757352466.76748 31099 6a540fbab6d4cb96052a1dada9d0eafb ""
+  "Figures/Part2PlotExtended.png" 1757451470.01046 33054 78d37a841d9d797a584cf9c6a1b5e698 ""
   "Figures/Part3.jpg" 1757324892.71892 1077485 483489b333641a10bc8c684f4ac637e9 ""
   "Figures/Part4.jpg" 1757361054.17913 1136292 9f04bf7b4a25c909ead3bdd5a5a65f91 ""
   "Figures/Part4_FirstLight.jpg" 1757324908.73341 570241 a40c16c77aee7e93c09f7016423475c9 ""
   "Figures/Part4_FullyOn.jpg" 1757324915.08237 661292 05e289fb39b316105f79f2d14842a579 ""
-  "LaTeX/main.aux" 1757402630.94605 4276 d85e437f8ac105d5dec12f9bc3996f42 "lualatex"
-  "LaTeX/main.lof" 1757402630.94714 721 2550652cd4797966b8a845b13f0e3f0b "lualatex"
-  "LaTeX/main.lot" 1757402630.94717 381 c8896ef1dcd461044cf92800be8148bc "lualatex"
-  "LaTeX/main.out" 1757402630.94691 1484 8baf486316d695a3b46931bda9b6c186 "lualatex"
-  "LaTeX/main.toc" 1757402630.94712 972 d76a1181b34a80730d3d287f0d8dc955 "lualatex"
+  "LaTeX/main.aux" 1757451472.00395 4276 d85e437f8ac105d5dec12f9bc3996f42 "lualatex"
+  "LaTeX/main.lof" 1757451472.00511 721 2550652cd4797966b8a845b13f0e3f0b "lualatex"
+  "LaTeX/main.lot" 1757451472.00514 381 c8896ef1dcd461044cf92800be8148bc "lualatex"
+  "LaTeX/main.out" 1757451472.00484 1484 8baf486316d695a3b46931bda9b6c186 "lualatex"
+  "LaTeX/main.toc" 1757451472.00507 972 d76a1181b34a80730d3d287f0d8dc955 "lualatex"
   "main.tex" 1757402629.29658 9317 6708fd4af74da831ad82c71b4db6940c ""
   (generated)
   "LaTeX/main.aux"
