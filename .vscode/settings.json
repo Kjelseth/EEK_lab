@@ -42,10 +42,66 @@
     "Elektroniske",
     "enheter",
     "kretser"
-  ]
+  ],
 
   // Example: Per-file Norwegian override in a .tex file:
   // Add at top of file:
   // % !LTeX lang=no
   // % cSpell:no
+
+  // ===== TODO Highlight configuration =====
+  "todohighlight.keywords": [
+    {
+      "text": "#region",
+      "color": "#A3FFEF",           // mint text
+      "border": "1px solid #7DFFCC", // slightly darker mint for border
+      "borderRadius": "5px",
+      "backgroundColor": "#1E1E2F"   // dark purple background
+    },
+    {
+      "text": "#endregion",
+      "color": "#A3FFEF",           // mint text
+      "border": "1px solid #7DFFCC", // slightly darker mint for border
+      "borderRadius": "5px",
+      "backgroundColor": "#1E1E2F"   // dark purple background
+    },
+    {
+      "text": "%================  SECTION  =======================================================%",
+      "color": "#C6A0FF",
+      "border": "1px solid #5E3D87",
+      "borderRadius": "5px",
+      "backgroundColor": "#1A0F24"
+    },
+    {
+      "text": "%================  INTRODUCTION  ==================================================%",
+      "color": "#C6A0FF",
+      "border": "1px solid #5E3D87",
+      "borderRadius": "5px",
+      "backgroundColor": "#1A0F24"
+    },
+    {
+      "text": "%================  START OF DOCUMENT  =============================================%",
+      "color": "#A0FFD9",            
+      "border": "1px solid #2E6655", 
+      "borderRadius": "6px",
+      "backgroundColor": "#0D1E19" 
+    },
+    {
+      "text": "%================  PLACEHOLDER HEADER 1  ==========================================%",
+      "color": "#D6C3FF",
+      "border": "1px solid #66FFCC",
+      "borderRadius": "5px",
+      "backgroundColor": "#1E1B2A"
+    },
+    {
+      "text": "%================  PLACEHOLDER HEADER 2  ==========================================%",
+      "color": "#FFD6A0",            
+      "border": "1px solid #66552E", 
+      "borderRadius": "5px",
+      "backgroundColor": "#1E1B0D"   
+    }
+  ],
+  "todohighlight.include": [
+    "**/*.tex"
+  ],
 }
