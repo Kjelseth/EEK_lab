@@ -9,3 +9,4 @@
 \contentsline {section}{\numberline {\texttt {3.}}\texttt {Part 3 - Reverse-bias}}{8}{section.3}%
 \contentsline {section}{\numberline {\texttt {4.}}\texttt {Part 4 - LED characteristics}}{10}{section.4}%
 \contentsline {section}{\numberline {\texttt {5.}}\texttt {Part 5 - Zener characteristics}}{16}{section.5}%
+\contentsline {section}{\numberline {\texttt {6.}}\texttt {Part 6 - Half-wave rectification}}{19}{section.6}%
