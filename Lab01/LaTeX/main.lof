@@ -1,15 +1,19 @@
 \contentsline {figure}{\numberline {1.0}{\ignorespaces Diode being measured}}{3}{figure.caption.1}%
-\contentsline {figure}{\numberline {2.0}{\ignorespaces Part 2 circuit}}{4}{figure.caption.3}%
+\contentsline {figure}{\numberline {2.0}{\ignorespaces Forward-bias circuit}}{4}{figure.caption.3}%
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Plot of forward-bias characteristics}}{5}{figure.caption.4}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Extended plot of forward-bias characteristics}}{6}{figure.caption.5}%
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Extended plot with exponential regression}}{7}{figure.caption.6}%
-\contentsline {figure}{\numberline {3.0}{\ignorespaces Part 3 circuit}}{8}{figure.caption.7}%
-\contentsline {figure}{\numberline {4.0}{\ignorespaces Part 4 circuit}}{10}{figure.caption.9}%
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Part 4 light levels}}{11}{figure.caption.11}%
+\contentsline {figure}{\numberline {3.0}{\ignorespaces Reverse-bias circuit}}{8}{figure.caption.7}%
+\contentsline {figure}{\numberline {4.0}{\ignorespaces LED circuit}}{10}{figure.caption.9}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces LED light levels}}{11}{figure.caption.11}%
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Voltage drops}}{12}{figure.caption.13}%
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Plot of voltage drops as percent of source}}{13}{figure.caption.14}%
 \contentsline {figure}{\numberline {4.4}{\ignorespaces Stacked bar chart of voltage drops as percent of source}}{14}{figure.caption.15}%
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Current through the diode vs voltage}}{15}{figure.caption.16}%
-\contentsline {figure}{\numberline {5.0}{\ignorespaces Circuit of zener diode}}{16}{figure.caption.17}%
+\contentsline {figure}{\numberline {5.0}{\ignorespaces Zener diode circuit}}{16}{figure.caption.17}%
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Voltage drops}}{17}{figure.caption.18}%
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Current through the diode vs voltage}}{18}{figure.caption.19}%
+\contentsline {figure}{\numberline {6.0}{\ignorespaces Half-wave rectifier circuit}}{19}{figure.caption.20}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Input AC signal}}{20}{figure.caption.21}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Half-wave rectified signal}}{21}{figure.caption.22}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Reversed diode}}{22}{figure.caption.24}%

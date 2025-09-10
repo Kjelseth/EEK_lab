@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.9.5)  10 SEP 2025 02:55
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.9.5)  10 SEP 2025 03:26
  restricted system commands enabled.
  file:line:error style messages enabled.
 **/Users/g_tec/Git/EEK_lab/Lab01/main.tex
@@ -717,30 +717,30 @@ Package fontspec Info:
 Package hyperref Info: Option `colorlinks' set `true' on input line 55.
 \c@tcb@cnt@codeBlock=\count365
 )
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 21.
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 20.
  (./LaTeX/main.aux)
 \openout1 = main.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
  (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count366
@@ -772,56 +772,56 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 21.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 21.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 21.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 21.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 21.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 21.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 21.
-LaTeX Font Info:    Redeclaring math accent \check on input line 21.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 21.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 21.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 21.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 21.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 21.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 21.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 21.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 21.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 21.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 21.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 21.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 21.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 21.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 21.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 21.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 21.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 20.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 20.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 20.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 20.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 20.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 20.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 20.
+LaTeX Font Info:    Redeclaring math accent \check on input line 20.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 20.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 20.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 20.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 20.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 21.
+(Font)              `operators' in the math version `normal' on input line 20.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 21.
+(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 20.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 21.
+(Font)              `operators' in the math version `bold' on input line 20.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 21.
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 20.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on input line 21.
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line 21.
+(Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 21.
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 21.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/JetBrainsMono(0)/m/n on input line 21.
+(Font)                  OT1/cmtt/m/n --> TU/JetBrainsMono(0)/m/n on input line 20.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on input line 21.
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/b/it on input line 21.
+(Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/b/it on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 21.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/JetBrainsMono(0)/b/n on input line 21.
+(Font)                  OT1/cmtt/m/n --> TU/JetBrainsMono(0)/b/n on input line 20.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -857,7 +857,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 21.
+Package hyperref Info: Link coloring ON on input line 20.
 (./LaTeX/main.out) (./LaTeX/main.out)
 \@outlinefile=\write5
 
@@ -865,11 +865,11 @@ Package hyperref Info: Link coloring ON on input line 21.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 21.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 20.
 <../Common_assets/github-mark.png, id=48, 48.18pt x 48.18pt>
 File: ../Common_assets/github-mark.png Graphic file (type png)
 <use ../Common_assets/github-mark.png>
-Package luatex.def Info: ../Common_assets/github-mark.png  used on input line 33.
+Package luatex.def Info: ../Common_assets/github-mark.png  used on input line 31.
 (luatex.def)             Requested size: 24.08992pt x 24.08992pt.
 
 
@@ -892,60 +892,60 @@ Package luatex.def Info: ../Common_assets/github-mark.png  used on input line 33
 [2
 
 ]
-<Figures/Part1.jpg, id=109, 2163.08125pt x 1317.92375pt>
+<Figures/Part1.jpg, id=119, 2163.08125pt x 1317.92375pt>
 File: Figures/Part1.jpg Graphic file (type jpg)
 <use Figures/Part1.jpg>
-Package luatex.def Info: Figures/Part1.jpg  used on input line 56.
+Package luatex.def Info: Figures/Part1.jpg  used on input line 52.
 (luatex.def)             Requested size: 426.79135pt x 260.02063pt.
 
 
 [3
 
 <./Figures/Part1.jpg>]
-<Figures/Part2.jpg, id=116, 2454.16875pt x 2065.7175pt>
+<Figures/Part2.jpg, id=126, 2454.16875pt x 2065.7175pt>
 File: Figures/Part2.jpg Graphic file (type jpg)
 <use Figures/Part2.jpg>
-Package luatex.def Info: Figures/Part2.jpg  used on input line 92.
+Package luatex.def Info: Figures/Part2.jpg  used on input line 85.
 (luatex.def)             Requested size: 426.79135pt x 359.23653pt.
 
 
 [4
 
 <./Figures/Part2.jpg>]
-<Figures/Part2Plot.png, id=124, 498.663pt x 354.123pt>
+<Figures/Part2Plot.png, id=134, 498.663pt x 354.123pt>
 File: Figures/Part2Plot.png Graphic file (type png)
 <use Figures/Part2Plot.png>
-Package luatex.def Info: Figures/Part2Plot.png  used on input line 103.
+Package luatex.def Info: Figures/Part2Plot.png  used on input line 95.
 (luatex.def)             Requested size: 426.79135pt x 303.08629pt.
 
 
 [5
 
 <./Figures/Part2Plot.png>]
-<Figures/Part2PlotExtended.png, id=132, 498.663pt x 354.123pt>
+<Figures/Part2PlotExtended.png, id=142, 498.663pt x 354.123pt>
 File: Figures/Part2PlotExtended.png Graphic file (type png)
 <use Figures/Part2PlotExtended.png>
-Package luatex.def Info: Figures/Part2PlotExtended.png  used on input line 116.
+Package luatex.def Info: Figures/Part2PlotExtended.png  used on input line 107.
 (luatex.def)             Requested size: 426.79135pt x 303.08629pt.
 
 
 [6
 
 <./Figures/Part2PlotExtended.png>]
-<Figures/Part2PlotExp.png, id=138, 498.663pt x 354.123pt>
+<Figures/Part2PlotExp.png, id=148, 498.663pt x 354.123pt>
 File: Figures/Part2PlotExp.png Graphic file (type png)
 <use Figures/Part2PlotExp.png>
-Package luatex.def Info: Figures/Part2PlotExp.png  used on input line 129.
+Package luatex.def Info: Figures/Part2PlotExp.png  used on input line 119.
 (luatex.def)             Requested size: 426.79135pt x 303.08629pt.
 
 
 [7
 
 <./Figures/Part2PlotExp.png>]
-<Figures/Part3.jpg, id=144, 1884.03876pt x 1956.30875pt>
+<Figures/Part3.jpg, id=154, 1884.03876pt x 1956.30875pt>
 File: Figures/Part3.jpg Graphic file (type jpg)
 <use Figures/Part3.jpg>
-Package luatex.def Info: Figures/Part3.jpg  used on input line 146.
+Package luatex.def Info: Figures/Part3.jpg  used on input line 134.
 (luatex.def)             Requested size: 426.79135pt x 443.13556pt.
 
 
@@ -956,105 +956,141 @@ Package luatex.def Info: Figures/Part3.jpg  used on input line 146.
 [9
 
 ]
-<Figures/Part4.jpg, id=153, 2269.47874pt x 1635.10875pt>
+<Figures/Part4.jpg, id=164, 2269.47874pt x 1635.10875pt>
 File: Figures/Part4.jpg Graphic file (type jpg)
 <use Figures/Part4.jpg>
-Package luatex.def Info: Figures/Part4.jpg  used on input line 191.
+Package luatex.def Info: Figures/Part4.jpg  used on input line 176.
 (luatex.def)             Requested size: 426.79135pt x 307.48033pt.
 
 
 [10
 
 <./Figures/Part4.jpg>]
-<Figures/Part4_FirstLight.jpg, id=161, 1772.6225pt x 1772.6225pt>
+<Figures/Part4_FirstLight.jpg, id=171, 1772.6225pt x 1772.6225pt>
 File: Figures/Part4_FirstLight.jpg Graphic file (type jpg)
 <use Figures/Part4_FirstLight.jpg>
-Package luatex.def Info: Figures/Part4_FirstLight.jpg  used on input line 228.
+Package luatex.def Info: Figures/Part4_FirstLight.jpg  used on input line 211.
 (luatex.def)             Requested size: 188.2158pt x 188.20003pt.
-<Figures/Part4_FullyOn.jpg, id=162, 1590.94376pt x 1590.94376pt>
+<Figures/Part4_FullyOn.jpg, id=172, 1590.94376pt x 1590.94376pt>
 File: Figures/Part4_FullyOn.jpg Graphic file (type jpg)
 <use Figures/Part4_FullyOn.jpg>
-Package luatex.def Info: Figures/Part4_FullyOn.jpg  used on input line 235.
+Package luatex.def Info: Figures/Part4_FullyOn.jpg  used on input line 218.
 (luatex.def)             Requested size: 188.2158pt x 188.21039pt.
 
 
 [11
 
 <./Figures/Part4_FirstLight.jpg><./Figures/Part4_FullyOn.jpg>]
-<Figures/Part4PlotVoltageDrops.png, id=170, 498.663pt x 354.123pt>
+<Figures/Part4PlotVoltageDrops.png, id=180, 498.663pt x 354.123pt>
 File: Figures/Part4PlotVoltageDrops.png Graphic file (type png)
 <use Figures/Part4PlotVoltageDrops.png>
-Package luatex.def Info: Figures/Part4PlotVoltageDrops.png  used on input line 273.
+Package luatex.def Info: Figures/Part4PlotVoltageDrops.png  used on input line 254.
 (luatex.def)             Requested size: 426.79135pt x 303.08629pt.
 
 
 [12
 
 <./Figures/Part4PlotVoltageDrops.png>]
-<Figures/Part4PlotPercent.png, id=177, 570.933pt x 354.123pt>
+<Figures/Part4PlotPercent.png, id=187, 570.933pt x 354.123pt>
 File: Figures/Part4PlotPercent.png Graphic file (type png)
 <use Figures/Part4PlotPercent.png>
-Package luatex.def Info: Figures/Part4PlotPercent.png  used on input line 284.
+Package luatex.def Info: Figures/Part4PlotPercent.png  used on input line 264.
 (luatex.def)             Requested size: 426.79135pt x 264.72702pt.
 
 
 [13
 
 <./Figures/Part4PlotPercent.png>]
-<Figures/Part4PlotStacked.png, id=183, 570.933pt x 354.123pt>
+<Figures/Part4PlotStacked.png, id=193, 570.933pt x 354.123pt>
 File: Figures/Part4PlotStacked.png Graphic file (type png)
 <use Figures/Part4PlotStacked.png>
-Package luatex.def Info: Figures/Part4PlotStacked.png  used on input line 295.
+Package luatex.def Info: Figures/Part4PlotStacked.png  used on input line 274.
 (luatex.def)             Requested size: 426.79135pt x 264.72702pt.
 
 
 [14
 
 <./Figures/Part4PlotStacked.png>]
-<Figures/Part4PlotCurrent.png, id=189, 498.663pt x 354.123pt>
+<Figures/Part4PlotCurrent.png, id=199, 498.663pt x 354.123pt>
 File: Figures/Part4PlotCurrent.png Graphic file (type png)
 <use Figures/Part4PlotCurrent.png>
-Package luatex.def Info: Figures/Part4PlotCurrent.png  used on input line 306.
+Package luatex.def Info: Figures/Part4PlotCurrent.png  used on input line 284.
 (luatex.def)             Requested size: 426.79135pt x 303.08629pt.
 
 
 [15
 
 <./Figures/Part4PlotCurrent.png>]
-<Figures/Part5.jpg, id=195, 2171.11125pt x 2147.02126pt>
+<Figures/Part5.jpg, id=205, 2171.11125pt x 2147.02126pt>
 File: Figures/Part5.jpg Graphic file (type jpg)
 <use Figures/Part5.jpg>
-Package luatex.def Info: Figures/Part5.jpg  used on input line 324.
+Package luatex.def Info: Figures/Part5.jpg  used on input line 300.
 (luatex.def)             Requested size: 426.79135pt x 422.02545pt.
 
 
 [16
 
 <./Figures/Part5.jpg>]
-<Figures/Part5PlotVoltageDrops.png, id=200, 498.663pt x 354.123pt>
+<Figures/Part5PlotVoltageDrops.png, id=210, 498.663pt x 354.123pt>
 File: Figures/Part5PlotVoltageDrops.png Graphic file (type png)
 <use Figures/Part5PlotVoltageDrops.png>
-Package luatex.def Info: Figures/Part5PlotVoltageDrops.png  used on input line 337.
+Package luatex.def Info: Figures/Part5PlotVoltageDrops.png  used on input line 312.
 (luatex.def)             Requested size: 426.79135pt x 303.08629pt.
 
 
 [17
 
 <./Figures/Part5PlotVoltageDrops.png>]
-<Figures/Part5PlotCurrent.png, id=206, 498.663pt x 354.123pt>
+<Figures/Part5PlotCurrent.png, id=216, 498.663pt x 354.123pt>
 File: Figures/Part5PlotCurrent.png Graphic file (type png)
 <use Figures/Part5PlotCurrent.png>
-Package luatex.def Info: Figures/Part5PlotCurrent.png  used on input line 350.
+Package luatex.def Info: Figures/Part5PlotCurrent.png  used on input line 324.
 (luatex.def)             Requested size: 426.79135pt x 303.08629pt.
 
 
 [18
 
 <./Figures/Part5PlotCurrent.png>]
+<Figures/Part6.jpg, id=222, 2011.515pt x 1959.32pt>
+File: Figures/Part6.jpg Graphic file (type jpg)
+<use Figures/Part6.jpg>
+Package luatex.def Info: Figures/Part6.jpg  used on input line 341.
+(luatex.def)             Requested size: 426.79135pt x 415.71469pt.
+
 
 [19
 
-] (./LaTeX/main.aux)
+<./Figures/Part6.jpg>]
+<Figures/Part6_InputVoltage.jpg, id=227, 2922.92pt x 1752.5475pt>
+File: Figures/Part6_InputVoltage.jpg Graphic file (type jpg)
+<use Figures/Part6_InputVoltage.jpg>
+Package luatex.def Info: Figures/Part6_InputVoltage.jpg  used on input line 351.
+(luatex.def)             Requested size: 426.79135pt x 255.8912pt.
+
+
+[20
+
+<./Figures/Part6_InputVoltage.jpg>]
+<Figures/Part6b.jpg, id=232, 2643.8775pt x 1806.75pt>
+File: Figures/Part6b.jpg Graphic file (type jpg)
+<use Figures/Part6b.jpg>
+Package luatex.def Info: Figures/Part6b.jpg  used on input line 361.
+(luatex.def)             Requested size: 426.79135pt x 291.6498pt.
+
+
+[21
+
+<./Figures/Part6b.jpg>]
+<Figures/Part6e.jpg, id=241, 2464.20625pt x 1668.2325pt>
+File: Figures/Part6e.jpg Graphic file (type jpg)
+<use Figures/Part6e.jpg>
+Package luatex.def Info: Figures/Part6e.jpg  used on input line 394.
+(luatex.def)             Requested size: 426.79135pt x 288.9159pt.
+
+
+[22
+
+<./Figures/Part6e.jpg>] (./LaTeX/main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -1064,19 +1100,19 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 34619 strings out of 475506
+ 34680 strings out of 475506
  125086,1373583 words of node,token memory allocated
  531 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 7 attribute, 60 glue_spec, 7 attribute_list, 2 write nodes
-   avail lists: 1:1,2:753,3:305,4:200,5:250,6:85,7:2598,8:10,9:633,10:10,11:110
- 56797 multiletter control sequences out of 65536+600000
+   avail lists: 1:1,2:873,3:355,4:240,5:290,6:100,7:3076,8:12,9:633,10:10,11:134
+ 56838 multiletter control sequences out of 65536+600000
  66 fonts using 16140031 bytes
  113i,11n,110p,1223b,919s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</System/Library/Fonts/Supplemental/Times New Roman Bold.ttf></usr/local/texlive/2025/texmf-dist/fonts/opentype/SIL/jetbrainsmono-otf/JetBrainsMono-Bold.otf></Users/g_tec/Library/Fonts/JetBrainsMono[wght].ttf></System/Library/Fonts/Supplemental/Times New Roman.ttf></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on main.pdf (19 pages, 7305490 bytes).
+</System/Library/Fonts/Supplemental/Times New Roman Bold.ttf></usr/local/texlive/2025/texmf-dist/fonts/opentype/SIL/jetbrainsmono-otf/JetBrainsMono-Bold.otf></Users/g_tec/Library/Fonts/JetBrainsMono[wght].ttf></System/Library/Fonts/Supplemental/Times New Roman.ttf></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on main.pdf (22 pages, 13607966 bytes).
 
-PDF statistics: 260 PDF objects out of 1000 (max. 8388607)
- 194 compressed objects within 2 object streams
- 49 named destinations out of 1000 (max. 131072)
+PDF statistics: 294 PDF objects out of 1000 (max. 8388607)
+ 219 compressed objects within 3 object streams
+ 57 named destinations out of 1000 (max. 131072)
  96 words of extra memory for PDF output out of 10000 (max. 100000000)
 
