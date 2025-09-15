@@ -67,7 +67,7 @@
       "backgroundColor": "#1E1E2F"   // dark purple background
     },
     {
-      "text": "%================  SECTION  =======================================================%",
+      "text": "%================  ABSTRACT  ======================================================%",
       "color": "#C6A0FF",
       "border": "1px solid #5E3D87",
       "borderRadius": "5px",
@@ -75,6 +75,13 @@
     },
     {
       "text": "%================  INTRODUCTION  ==================================================%",
+      "color": "#C6A0FF",
+      "border": "1px solid #5E3D87",
+      "borderRadius": "5px",
+      "backgroundColor": "#1A0F24"
+    },
+    {
+      "text": "%================  SECTION  =======================================================%",
       "color": "#C6A0FF",
       "border": "1px solid #5E3D87",
       "borderRadius": "5px",
