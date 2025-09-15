@@ -1,5 +1,50 @@
-
+# macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# Temp files
 ~$*
 *.afphoto~lock~
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+env/
+venv/
+.venv/
+
+# Logs
+*.log
+*.out
+*.err
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+Thumbs.db
+ehthumbs.db
+
+# Spesific folders
 Hidden/
+# Ignore everything inside LaTeX folders
+**/LaTeX/*
+# Except PDF files
+!**/LaTeX/*.pdf
