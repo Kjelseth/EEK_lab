@@ -24,18 +24,21 @@ Lab 02} % Line 2 of title, \\ means next line.
 %================  ABSTRACT  ======================================================%
 % #region
 \addtocontents{toc}{\protect\setcounter{tocdepth}{0}} % Temporarily hide from TOC
-\section{Abstract} % Numbered section named Introduction
-Abstract here
+\section{Abstract} % Numbered section named Abstract
+This lab investigated the behaviour and characteristics of a bipolar junction transistor (BJT) in Fixed-Bias and Voltage-Divider Bias configurations.
+Two circuits were used to determine the transistor current gain, denoted \(\beta\), and the behaviour of the Voltage-Divider Bias configuration.
+Theoretical calculations were performed and compared with measured values.
+Using the same transistor, a Voltage-Divider Bias circuit with specific requirements was designed by calculating optimal resistor values and selecting the closest commercially available components.
+Measurements were then taken to evaluate the difference between the calculated circuit and actual performance.
+The experiment highlights the calculations, the underlying assumptions, and the agreement between theoretical predictions and experimental observations.
 
 
 \vfill % Front page footnote
-This report corresponds to the second lab exercise in the course. The report structure has been updated based on previous feedback, and further feedback is welcome to improve clarity and quality. All materials created for this course (\LaTeX source, text, images, graphs, and code) are released under the open source MIT License, and available on \linkgithub[true][0.325]{GitHub}.
-
-
-
-
-
-
+This report corresponds to the second lab exercise in the course.
+The report structure has been updated based on previous feedback, and further feedback is welcome to improve clarity and quality.
+All materials created for this course (%
+\LaTeX~sources, images, graphs, and code) are released under the open source MIT License, and available on
+\linkgithub[true][0.325]{GitHub}.
 
 \clearpage
 
@@ -50,8 +53,24 @@ This report corresponds to the second lab exercise in the course. The report str
 %================  INTRODUCTION  ==================================================%
 \section{Introduction}
 % #region
-Introduction here
+Transistors are among the most commonly used components in electronic circuits. They serve as amplifiers, switches, and signal modulators.
+Even the very building blocks of modern computational electronics are transistors.
+One type is the bipolar junction transistor (BJT) which is explored in this experiment.
+A BJT has three terminals, called the collector, base, and emitter.
+It operates by controlling the collector current through the base current, with both currents exiting through the emitter.
+The most important characteristic of the BJT for this experiment is its current gain, \(\beta\), which represents the ratio of collector current to base current.
+In the transistor type to be used in this experiment the gain can be several hundred, resulting in very low base currents.
+Understanding transistor behaviour under various resistor configurations is essential for designing circuits to specification.
 
+The final objective of this lab is to construct a Voltage-Divider Bias BJT circuit with commercially available resistors to meet a specified design.
+The first objective is to determine the transistor', \(\beta\).
+For determining this a simple Fixed-Bias BJT circuit is constructed.
+Measurements are compared with calculations to verify that the theoretical model is sufficiently accurate for design purposes.
+The second objective is to build a Voltage-Divider Bias BJT circuit using known resistor values, and to measure and calculate its behaviour to understand how the circuit functions.
+Finally, the \(\beta\) determined in the first objective and the analysis from the second objective are used to complete the final design.
+
+This experiment demonstrates the function of a BJT and how resistor values influence circuit operation.
+It also highlights the practical consideration of adapting calculated ideal values to commercially available components.
 
 % #endregion
 
@@ -74,6 +93,7 @@ Text here
 \section{Conclusion}
 % #region
 Conclusion here
+
 
 % #endregion
 

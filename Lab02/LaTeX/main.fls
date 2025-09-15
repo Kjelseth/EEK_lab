@@ -269,3 +269,4 @@ OUTPUT LaTeX/main.lot
 INPUT ./LaTeX/main.aux
 INPUT ./LaTeX/main.out
 INPUT /Users/g_tec/Library/texlive/2025/texmf-var/luatex-cache/generic/fonts/streams/jetbrainsmonowghtttf-1.luc
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb

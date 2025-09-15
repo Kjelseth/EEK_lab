@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.9.5)  15 SEP 2025 09:30
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.9.5)  15 SEP 2025 11:27
  restricted system commands enabled.
  file:line:error style messages enabled.
 **/Users/g_tec/Git/EEK_lab/Lab02/main.tex
@@ -869,7 +869,7 @@ Package translations Info: loading dictionary `translations-basic-dictionary' fo
 <../Common_assets/github-mark.png, id=40, 48.18pt x 48.18pt>
 File: ../Common_assets/github-mark.png Graphic file (type png)
 <use ../Common_assets/github-mark.png>
-Package luatex.def Info: ../Common_assets/github-mark.png  used on input line 32.
+Package luatex.def Info: ../Common_assets/github-mark.png  used on input line 41.
 (luatex.def)             Requested size: 15.6583pt x 15.6583pt.
 
 
@@ -921,15 +921,15 @@ Here is how much of LuaTeX's memory you used:
  125086,1373583 words of node,token memory allocated
  535 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 8 attribute, 60 glue_spec, 8 attribute_list, 2 write nodes
-   avail lists: 1:1,2:247,3:95,4:38,5:82,6:22,7:1726,8:2,9:188,10:4,11:99
+   avail lists: 1:1,2:247,3:100,4:38,5:82,6:22,7:4501,8:2,9:215,10:10,11:417
  56604 multiletter control sequences out of 65536+600000
  61 fonts using 15334175 bytes
  113i,7n,110p,1223b,919s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</System/Library/Fonts/Supplemental/Times New Roman Bold.ttf></usr/local/texlive/2025/texmf-dist/fonts/opentype/SIL/jetbrainsmono-otf/JetBrainsMono-Bold.otf></Users/g_tec/Library/Fonts/JetBrainsMono[wght].ttf></System/Library/Fonts/Supplemental/Times New Roman.ttf>
-Output written on main.pdf (6 pages, 71349 bytes).
+</System/Library/Fonts/Supplemental/Times New Roman Bold.ttf></usr/local/texlive/2025/texmf-dist/fonts/opentype/SIL/jetbrainsmono-otf/JetBrainsMono-Bold.otf></Users/g_tec/Library/Fonts/JetBrainsMono[wght].ttf></System/Library/Fonts/Supplemental/Times New Roman.ttf></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
+Output written on main.pdf (6 pages, 84626 bytes).
 
-PDF statistics: 106 PDF objects out of 1000 (max. 8388607)
- 83 compressed objects within 1 object stream
+PDF statistics: 110 PDF objects out of 1000 (max. 8388607)
+ 86 compressed objects within 1 object stream
  15 named destinations out of 1000 (max. 131072)
  80 words of extra memory for PDF output out of 10000 (max. 100000000)
 
