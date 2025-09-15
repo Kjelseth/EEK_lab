@@ -1,0 +1,82 @@
+\documentclass{article}
+
+%================  CUSTOMIZATION  =================================================%
+
+\usepackage{../KjelsethReportStyle}
+
+%================  METADATA  ======================================================%
+
+\title{\fontsize{24}{36}\selectfont Elektroniske enheter og kretser\\ % Input title
+Lab 02} % Line 2 of title, \\ means next line.
+
+\author{{\ttfamily Sølve Kjelseth}} % Input your name.
+% replace \ttfamily with \normalfont to make it regular font.
+% (removing \ttfamily will not do this automatically.
+
+\date{\today} % Auto updates the date, until you export it.
+
+
+%================  START OF DOCUMENT  =============================================%
+\begin{document}
+
+\maketitle % Makes title front page based on the title, author and date metadata, change at the top
+
+%================  ABSTRACT  ======================================================%
+% #region
+\addtocontents{toc}{\protect\setcounter{tocdepth}{0}} % Temporarily hide from TOC
+\section{Abstract} % Numbered section named Introduction
+Abstract here
+
+
+\vfill % Front page footnote
+This report corresponds to the second lab exercise in the course. The report structure has been updated based on previous feedback, and further feedback is welcome to improve clarity and quality. All materials created for this course (\LaTeX source, text, images, graphs, and code) are released under the open source MIT License, and available on \linkgithub[true][0.325]{GitHub}.
+
+
+
+
+
+
+
+\clearpage
+
+\tableofcontents % Generate TOC
+\hfill
+\listoffigures % List of figures
+\hfill
+\listoftables % List of tables
+\addtocontents{toc}{\protect\setcounter{tocdepth}{2}} % Restore TOC depth
+
+% #endregion
+%================  INTRODUCTION  ==================================================%
+\section{Introduction}
+% #region
+Introduction here
+
+
+% #endregion
+
+%================  SECTION  =======================================================%
+\section{Transistor characteristics}
+% #region
+Text here
+
+% #endregion
+
+%================  SECTION  =======================================================%
+\section{Designing a circuit}
+% #region
+Text here
+
+% #endregion
+
+
+%================  SECTION  =======================================================%
+\section{Conclusion}
+% #region
+Conclusion here
+
+% #endregion
+
+
+
+\end{document}
