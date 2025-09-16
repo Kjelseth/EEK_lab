@@ -20,6 +20,8 @@
 \usepackage{colortbl}
 \usepackage{amsmath}    % For math and equation formatting
 \usepackage{siunitx}
+\usepackage{booktabs}
+\usepackage{float}
 
 \tcbuselibrary{listings, skins, breakable}  %Librarary to make code blocks multipage
 
@@ -78,9 +80,6 @@
 \let\oldsection\section
 \renewcommand{\section}[1]{%
   \oldsection{\texttt{#1}} % Make section title monospace
-  \setcounter{subsection}{-1} % Makes subsection start from 0, delete this line to start from 1
-  \setcounter{figure}{-1} % Makes figure numbers start from 0, delete this line to start from 1
-  \setcounter{table}{-1} % Makes table numbers start from 0, delete this line to start from 1
 }
 
 
@@ -88,7 +87,6 @@
 \let\oldsubsection\subsection
 \renewcommand{\subsection}[1]{%
   \oldsubsection{\texttt{#1}}% Make subsection title monospace
-  \setcounter{subsubsection}{-1}% Makes subsubsection start from 0, delete this line to start from 1
 }
 
 % Makes subsubsection monospace font
@@ -138,26 +136,8 @@
 
 % Makes every table be formated as section number.table number
 \renewcommand{\thetable}{\arabic{section}.\arabic{table}}
-\AtBeginEnvironment{tabular}{\ttfamily} % Monozpaced font within tables
 
-% Add keywords to be highlited in blue below. Note that all reserved
-% keywords from VHDL is already in purple and should not be added here
-% too as duplicates will cause issues. Therfore compile this document
-% after pasting in code and only add non-highlited words to this list.
-% Also, there is not a list for orange keywords, used for ports here.
-\lstdefinelanguage{VHDL+}{
-    language     = VHDL,,
-    morekeywords = [2]{
-        ieee, std_logic_1164, numeric_std, work,
-        std_logic, std_logic_vector,
-        natural, integer, signed, unsigned,
-        length},
-    morekeywords = [3]{
-        rising_edge, falling_edge, to_integer, to_unsigned, to_
-        SW, LEDR, KEY, CLOCK_50,
-        HEX0, HEX1, HEX2, HEX3, HEX4, HEX5, HEX6},
-    sensitive = false
-}
+\renewcommand{\theequation}{\arabic{section}.\arabic{equation}}
 
 \lstdefinelanguage{Python+}{
     language     = Python,
@@ -169,33 +149,6 @@
 }
 
 %   ############################## Advanced customisation ##############################
-
-% Customisation of list style inside code block
-\lstdefinestyle{VHDL}{
-    language = VHDL+, % Uses the extra higlights from above
-    % The folloowing lines defines color for highlighting, other changes like
-    % italic, bold or different fonts can also be added to this
-    escapechar = §,
-    commentstyle = \color{commentGreen}, 
-    keywordstyle = \color{keywordPurple},
-    keywordstyle = [2]\color{keywordBlue},
-    keywordstyle = [3]\color{portOrange},
-    stringstyle = \color{darkAccent},
-    basicstyle = \ttfamily\small, % Default font inside code block
-    numberstyle = \ttfamily\color{darkAccent}, % Style of line numbering
-    numbers = left, % Line numbering on left side
-    breakatwhitespace = false, % Don't start new line with only whitspaces
-    breaklines = true, % If line is to long it will wrap to next line (line number does not increase)
-    keepspaces = true, % Indents works logical
-    showspaces = false, % Space is blank character, set to true to show dots instad
-    showstringspaces = false, % Same as above but inside strings
-    showtabs = false, % Tab is also blank character, set to true to show dashes
-    tabsize = 4, % Tabsize is set to 4, this works well with code from notepad++
-    % Dont mess with the ones below unless you want to mess with the box as well
-    % These took some time to line up such that it looks natural
-    numbersep = 10pt, % Adjust distance between numbers and code
-    xleftmargin = -8pt,% Negative margin to pull code text closer to the left border
-}
 
 \lstdefinestyle{Python}{
     language = Python+, % Uses the extra higlights from above
