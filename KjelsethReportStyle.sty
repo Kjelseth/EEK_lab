@@ -137,6 +137,9 @@
 % Makes every table be formated as section number.table number
 \renewcommand{\thetable}{\arabic{section}.\arabic{table}}
 
+\makeatletter
+\@addtoreset{equation}{section}
+\makeatother
 \renewcommand{\theequation}{\arabic{section}.\arabic{equation}}
 
 \lstdefinelanguage{Python+}{
