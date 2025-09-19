@@ -1,0 +1,83 @@
+\documentclass[conference]{IEEEtran}
+
+% --- Common packages ---
+\usepackage{graphicx}    % figures
+\usepackage{amsmath}     % equations
+\usepackage{cite}        % IEEE-style citations
+\usepackage{hyperref}    % clickable references
+\usepackage{array}       % tables
+
+\usepackage{siunitx}
+\sisetup{
+  detect-all,       % matches the surrounding font
+  separate-uncertainty = true,
+  per-mode = symbol  % e.g., m/s instead of m s^-1
+}
+
+
+\begin{document}
+
+% --- Title & Authors ---
+\title{Lab Report: \LaTeX{} Test with IEEEtran}
+
+\author{%
+    John Doe \\
+    Department of Electrical Engineering, Example University \\
+    Email: john.doe@example.com
+}
+
+\maketitle
+
+% --- Abstract ---
+\begin{abstract}
+This is a sample abstract for a lab report using the IEEEtran class
+with modern fonts. You can type Unicode symbols like Ω, µ, or α
+without warnings.
+\end{abstract}
+
+% --- Keywords ---
+\begin{IEEEkeywords}
+lab, experiment, IEEEtran, LuaLaTeX, fonts
+\end{IEEEkeywords}
+
+% --- Sections ---
+\section{Introduction}
+This template is based on the official IEEEtran class but updated
+to use \texttt{newtxtext} and \texttt{newtxmath} for full font support.
+The measured voltage was \SI{5.0}{\volt} and the current was \SI{2.3}{\milli\ampere}.
+
+The resistor has a value of \SI{10}{\kilo\ohm}.
+
+The frequency of the signal is \SI{1.2e3}{\hertz}.
+
+The length of the sample is \SI{12.3(1)}{\centi\meter} % 12.3 ± 0.1 cm
+
+The acceleration is \SI{9.81}{\meter\per\second\squared}.
+
+\begin{equation}
+V = I \, R
+\end{equation}
+
+\begin{equation}
+P = \frac{V^2}{R} = \frac{\SI{5}{\volt}^2}{\SI{10}{\ohm}} = \SI{2.5}{\watt}
+\end{equation}
+
+
+
+\section{Materials and Methods}
+Describe apparatus, measurement setup, and procedure here.
+
+\section{Results}
+Insert figures and tables as needed.
+
+\section{Discussion}
+Interpret results and analyze sources of error here.
+
+\section{Conclusion}
+Summarize findings and lessons learned here.
+
+% --- References ---
+\bibliographystyle{IEEEtran}
+\bibliography{references} % references.bib file
+
+\end{document}
