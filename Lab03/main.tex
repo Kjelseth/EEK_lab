@@ -26,8 +26,8 @@
 
 
 \title{Elektroniske enheter og kretser\\
-       BJT Common-Emitter and Class-A Power Amplifiers}
-\author{Name}
+       Lab 03: BJT Common-Emitter and Class-A Power Amplifiers}
+\author{Sølve Kjelseth}
 
 
 %================  START OF DOCUMENT  =============================================%
@@ -42,7 +42,7 @@ This report presents an investigation of BJT common-emitter and class-A power am
 The work is divided into two parts.
 In the first part, the DC and AC behaviour of a common-emitter amplifier is studied, including bias voltages, voltage gain, input impedance, and output impedance, with measured results compared against calculated values.
 In the second part, the circuit is reconfigured as a class-A power amplifier, and its input power, output power, and efficiency are evaluated under maximum undistorted output conditions.
-The measurements were generally in good agreement with theoretical calculations, with most differences within ten per cent for bias and impedance parameters.
+The measurements were generally in good agreement with theoretical calculations, within about ten per cent for bias and impedance parameters.
 For the power and efficiency analysis, larger discrepancies were observed, mainly due to transistor non-idealities and practical measurement limitations.
 The study demonstrates how theoretical analysis and experimental results can be combined to assess the performance and limitations of amplifier circuits.
 \end{abstract}
@@ -91,21 +91,21 @@ The results are summarised in Table~\ref{tab:p1Rmeas}.
 \end{table}
 
 Using these resistance values, the approximate operating point of the transistor can be calculated.  
-Since the base current \(\Ix{B}\) is much smaller than the current through \(R_2\), the base voltage is approximated as shown in (\ref{eq:VBcalc}).  
+Since the base current \(\Ix{B}\) is much smaller than the current through \(R_2\), the base voltage is approximated as shown in Eq.~(\ref{eq:VBcalc}).  
 
 \begin{equation}
     \label{eq:VBcalc}
     \Vx{B} \approx \Vx{CC} \cdot \frac{R_2}{R_1 + R_2}
 \end{equation}
 
-The emitter voltage is then given by (\ref{eq:VEcalc}), assuming a base-emitter drop of \(\qty{0.7}{\volt}\).  
+The emitter voltage is then given by Eq.~(\ref{eq:VEcalc}), assuming a base-emitter drop of \(\qty{0.7}{\volt}\).  
 
 \begin{equation}
     \label{eq:VEcalc}
     \Vx{E} = \Vx{B} - \Vx{BE}
 \end{equation}
 
-The emitter current is determined from Ohm's law according to (\ref{eq:IEcalc}).  
+The emitter current is determined from Ohm's law according to Eq.~(\ref{eq:IEcalc}).  
 
 \begin{equation}
     \label{eq:IEcalc}
@@ -113,14 +113,14 @@ The emitter current is determined from Ohm's law according to (\ref{eq:IEcalc}).
 \end{equation}
 
 As \(\Ix{C} \gg \Ix{B}\), the collector current is approximated as equal to the emitter current.  
-The collector voltage is therefore given by (\ref{eq:VCcalc}).  
+The collector voltage is therefore given by Eq.~(\ref{eq:VCcalc}).  
 
 \begin{equation}
     \label{eq:VCcalc}
     \Vx{C} = \Vx{CC} - (\Ix{C} \cdot \Rx{C})
 \end{equation}
 
-Finally, the intrinsic emitter resistance \(\rx{e}\) is calculated using (\ref{eq:recalc}), which is provided in the assignment as Eq.~3.1.  
+Finally, the intrinsic emitter resistance \(\rx{e}\) is calculated using Eq.~(\ref{eq:recalc}), which is provided in the assignment as Eq.~3.1.  
 
 \begin{equation}
     \label{eq:recalc}
@@ -175,7 +175,7 @@ The measured node voltages were recorded, and the corresponding values of \(\Ix{
     \end{tabular}
 \end{table}
 
-To compare measured and theoretical results, the relative difference is calculated using (\ref{eq:diff}).
+To compare measured and theoretical results, the relative difference is calculated using Eq.~(\ref{eq:diff}).
 In this expression, \(M\) denotes the measured value and \(C\) denotes the calculated (theoretical) value.
 The difference is expressed as a percentage of the calculated value.
 
@@ -196,7 +196,7 @@ The measured value of \(\rx{e}\) differed from the calculated value by \(\qty{2.
 % #region
 
 The voltage gain of the amplifier can be estimated theoretically using the intrinsic emitter resistance.  
-According to the assignment, the expression for \(\Ax{V}\) is given in (\ref{eq:AVcalc}), which is referred to as Eq.~3.2.  
+According to the assignment, the expression for \(\Ax{V}\) is given in Eq.~(\ref{eq:AVcalc}), which is referred to as Eq.~3.2.  
 
 \begin{equation}
     \label{eq:AVcalc}
@@ -206,7 +206,7 @@ According to the assignment, the expression for \(\Ax{V}\) is given in (\ref{eq:
 The input signal specified in the assignment is \(\Vx{sig} = \qty{20}{\milli\volt}\).  
 However, this value resulted in a distorted output, so the signal generator was set to \(\qty{14}{\milli\volt}\) to avoid distortion.  
 
-The output amplitude \(\Vx{o}\) was measured and the experimental voltage gain was calculated using (\ref{eq:AVdef}).  
+The output amplitude \(\Vx{o}\) was measured and the experimental voltage gain was calculated using Eq.~(\ref{eq:AVdef}).  
 This expression follows directly from the definition of voltage gain as the ratio of output to input.  
 The negative sign indicates the \(\ang{180}\) phase inversion of the signal, which also allows direct comparison with the theoretical gain.  
 
@@ -218,7 +218,7 @@ The negative sign indicates the \(\ang{180}\) phase inversion of the signal, whi
 
 
 The calculated and measured values are summarised in Table~\ref{tab:p2gain}.  
-The relative difference in \(\Ax{V}\) was calculated using Eq.~\ref{eq:diff}.  
+The relative difference in \(\Ax{V}\) was calculated using Eq.~(\ref{eq:diff}).  
 
 \begin{table}[H]
     \centering
@@ -243,7 +243,7 @@ The relative difference in \(\Ax{V}\) was calculated using Eq.~\ref{eq:diff}.
 \subsection{Input Impedance}
 % #region
 
-The input impedance of the amplifier can be estimated theoretically using (\ref{eq:Zicalc}), which is referred to as Eq.~3.3 in the assignment.  
+The input impedance of the amplifier can be estimated theoretically using Eq.~(\ref{eq:Zicalc}), which is referred to as Eq.~3.3 in the assignment.  
 The data sheet specifies a transistor current gain in the range 150--400.  
 An approximate value of \(\beta = 250\) was chosen for this calculation.  
 
@@ -253,7 +253,7 @@ An approximate value of \(\beta = 250\) was chosen for this calculation.
 \end{equation}
 
 The input impedance was also determined experimentally by inserting a series resistor of \(\qty{1}{\kilo\ohm}\) at the input and setting the signal generator to \(\qty{20}{\milli\volt}\).  
-From the resulting division of voltage between \(\Zx{i}\) and \(\Rx{x}\), the input impedance is obtained according to (\ref{eq:Zimeas}).  
+From the resulting division of voltage between \(\Zx{i}\) and \(\Rx{x}\), the input impedance is obtained according to Eq.~(\ref{eq:Zimeas}).  
 
 \begin{equation}
     \label{eq:Zimeas}
@@ -261,7 +261,7 @@ From the resulting division of voltage between \(\Zx{i}\) and \(\Rx{x}\), the in
 \end{equation}
 
 The results of the theoretical and experimental calculations are summarised in Table~\ref{tab:p3Zi}.  
-The relative difference in \(\Zx{i}\) was calculated using Eq.~\ref{eq:diff}.  
+The relative difference in \(\Zx{i}\) was calculated using Eq.~(\ref{eq:diff}).  
 
 \begin{table}[H]
     \centering
@@ -287,7 +287,7 @@ The relative difference in \(\Zx{i}\) was calculated using Eq.~\ref{eq:diff}.
 \subsection{Output Impedance}
 % #region
 
-The output impedance is first estimated theoretically using (\ref{eq:Zocalc}), which corresponds to Eq.~3.4 in the assignment.  
+The output impedance is first estimated theoretically using Eq.~(\ref{eq:Zocalc}), which corresponds to Eq.~3.4 in the assignment.  
 
 \begin{equation}
     \label{eq:Zocalc}
@@ -295,7 +295,7 @@ The output impedance is first estimated theoretically using (\ref{eq:Zocalc}), w
 \end{equation}
 
 The experimental value of \(\Zx{o}\) was obtained by loading the output with a resistor and using the voltage-divider relationship between \(\Zx{o}\) and \(\Rx{L}\).  
-Following the same approach as for \(\Zx{i}\), the expression in (\ref{eq:Zomeas}) is derived from the divider that produces the loaded output \(\Vx{L}\) from the unloaded \(\Vx{o}\).  
+Following the same approach as for \(\Zx{i}\), the expression in Eq.~(\ref{eq:Zomeas}) is derived from the divider that produces the loaded output \(\Vx{L}\) from the unloaded \(\Vx{o}\).  
 
 \begin{equation}
     \label{eq:Zomeas}
@@ -304,7 +304,7 @@ Following the same approach as for \(\Zx{i}\), the expression in (\ref{eq:Zomeas
 
 The signal generator was set to \(\qty{14}{\milli\volt}\) to avoid distortion, with a load of \(\Rx{L} = \qty{3}{\kilo\ohm}\) connected.  
 The measured quantities and the resulting impedances are summarised in Table~\ref{tab:p4Zo}.  
-The relative difference in \(\Zx{o}\) was calculated using Eq.~\ref{eq:diff}.  
+The relative difference in \(\Zx{o}\) was calculated using Eq.~(\ref{eq:diff}).  
 
 \begin{table}[H]
     \centering
@@ -357,7 +357,7 @@ The measured resistor values are listed in Table~\ref{tab:p5R}.
 \end{table}
 
 The bias point was estimated using the same relations introduced earlier, 
-namely Eqs.~\ref{eq:VBcalc}--\ref{eq:VCcalc}.  
+namely Eqs.~(\ref{eq:VBcalc})--(\ref{eq:VCcalc}).  
 The resulting calculated values are summarised in Table~\ref{tab:p5calc}.
 
 \begin{table}[H]
@@ -409,7 +409,7 @@ The results are presented in Table~\ref{tab:p5meas}.
 
 \subsection{Power and Efficiency}
 
-The DC input power is obtained from (\ref{eq:PiDC}), which is Eq.~3.5 in the assignment.  
+The DC input power is obtained from Eq.~(\ref{eq:PiDC}), which is Eq.~3.5 in the assignment.  
 Since only the emitter current \(\Ix{E}\) was determined, it is used here as an approximation for \(\Ix{C}\).
 
 
@@ -419,7 +419,7 @@ Since only the emitter current \(\Ix{E}\) was determined, it is used here as an 
 \end{equation}
 
 The maximum theoretical output swing depends on the supply voltage \(\Vx{CC}\) 
-and the DC bias point at the collector \(\Vx{C}\) and is given by (\ref{eq:VoMax}).
+and the DC bias point at the collector \(\Vx{C}\) and is given by Eq.~(\ref{eq:VoMax}).
 The expression gives \(\Vx{o}\) as voltage peak-to-peak.
 
 \begin{equation}
@@ -434,7 +434,7 @@ The expression gives \(\Vx{o}\) as voltage peak-to-peak.
 As \(\Vx{C}\) is less than half the supply voltage, the upper equation is used.
 Due to some small losses in the circuit the found voltage is also rounded down to whole volts.
 
-The maximum AC output power is then estimated using (\ref{eq:PoPP}), 
+The maximum AC output power is then estimated using Eq.~(\ref{eq:PoPP}), 
 which is the peak-to-peak form of Eq.~3.6 in the assignment.  
 This form is used since the calculated \(\Vx{o}\) represents the maximum peak-to-peak output voltage swing.
 
@@ -444,7 +444,7 @@ This form is used since the calculated \(\Vx{o}\) represents the maximum peak-to
     \Px{o} \text{ (AC)} = \frac{\Vx{o}^2~(\text{p-p})}{8 \cdot \Rx{C}}
 \end{equation}
 
-The efficiency is then calculated using (\ref{eq:eta}), which is Eq.~3.7 in the assignment.  
+The efficiency is then calculated using Eq.~(\ref{eq:eta}), which is Eq.~3.7 in the assignment.  
 
 \begin{equation}
     \label{eq:eta}
@@ -471,7 +471,7 @@ The calculated values are listed in Table~\ref{tab:p6calc}.
 
 For the experimental measurements, the input was increased until the maximum undistorted output was achieved, corresponding to the \qty{40}{\milli\volt} rms setting of the signal generator.  
 The resulting input and output voltages were measured, both as rms values as well.  
-The collector resistor voltage drop is calculated as in (\ref{eq:VRC}), and the collector current from Ohm's law as in (\ref{eq:IRC}).  
+The collector resistor voltage drop is calculated as in Eq.~(\ref{eq:VRC}), and the collector current from Ohm's law as in Eq.~(\ref{eq:IRC}).  
 
 \begin{equation}
     \label{eq:VRC}
@@ -483,14 +483,14 @@ The collector resistor voltage drop is calculated as in (\ref{eq:VRC}), and the 
     \Ix{RC} = \frac{\Vx{RC}}{\Rx{C}}
 \end{equation}
 
-The measured input power is again calculated from Eq.~\ref{eq:PiDC}, and the output power from (\ref{eq:PoRMS}), which this time uses the rms form of Eq.~3.6.  
+The measured input power is again calculated from Eq.~(\ref{eq:PiDC}), and the output power from Eq.~(\ref{eq:PoRMS}), which this time uses the rms form of Eq.~3.6.  
 
 \begin{equation}
     \label{eq:PoRMS}
     \Px{o} \text{ (AC)} = \frac{\Vx{o}^2}{\Rx{C}}
 \end{equation}
 
-The efficiency is then obtained from Eq.~\ref{eq:eta}.  
+The efficiency is then obtained from Eq.~(\ref{eq:eta}).  
 All measured values are summarised in Table~\ref{tab:p6meas}.  
 
 \begin{table}[H]
@@ -510,7 +510,7 @@ All measured values are summarised in Table~\ref{tab:p6meas}.
     \end{tabular}
 \end{table}
 
-Finally, the percentage differences between calculated and measured values of \(\Px{i}\), \(\Px{o}\), and \(\eta\) are given in Table~\ref{tab:p6diff}, calculated using Eq.~\ref{eq:diff}.  
+Finally, the percentage differences between calculated and measured values of \(\Px{i}\), \(\Px{o}\), and \(\eta\) are given in Table~\ref{tab:p6diff}, calculated using Eq.~(\ref{eq:diff}).  
 
 \begin{table}[H]
     \centering
@@ -529,6 +529,9 @@ Finally, the percentage differences between calculated and measured values of \(
 
 % #endregion
 
+
+
+
 %================  SECTION  =======================================================%
 \section{Conclusion}
 % #region
@@ -536,6 +539,14 @@ The investigation of BJT common-emitter and class-A power amplifiers showed that
 Most calculated values matched measurements within about ten per cent, confirming the reliability of the basic circuit equations.
 For the class-A amplifier, the measured efficiency was significantly lower than the calculated maximum, mainly due to non-ideal device behaviour and practical measurement limits.
 These results highlight the difference between ideal calculations and real performance, and show the importance of experimental verification in amplifier design.
+
+% #endregion
+
+%================  SECTION  =======================================================%
+\section*{Acknowledgement}
+% #region
+This report corresponds to Lab~03 in the course \emph{Elektroniske enheter og kretser}.
+All related materials (\LaTeX~sources, figures, and code) are released under the MIT License and available at \url{https://github.com/Kjelseth/EEK_lab}.
 
 % #endregion
 
