@@ -25,8 +25,10 @@
 
 
 
-\title{Title}
-\author{Author}
+\title{Elektroniske enheter og kretser\\
+       BJT Common-Emitter and Class-A Power Amplifiers}
+\author{Name}
+
 
 %================  START OF DOCUMENT  =============================================%
 \begin{document}
@@ -35,20 +37,32 @@
 
 %================  ABSTRACT  ======================================================%
 % #region
-\addtocontents{toc}{\protect\setcounter{tocdepth}{0}}
 \begin{abstract}
-Abstract here
+This report presents an investigation of BJT common-emitter and class-A power amplifiers.
+The work is divided into two parts.
+In the first part, the DC and AC behaviour of a common-emitter amplifier is studied, including bias voltages, voltage gain, input impedance, and output impedance, with measured results compared against calculated values.
+In the second part, the circuit is reconfigured as a class-A power amplifier, and its input power, output power, and efficiency are evaluated under maximum undistorted output conditions.
+The measurements were generally in good agreement with theoretical calculations, with most differences within ten per cent for bias and impedance parameters.
+For the power and efficiency analysis, larger discrepancies were observed, mainly due to transistor non-idealities and practical measurement limitations.
+The study demonstrates how theoretical analysis and experimental results can be combined to assess the performance and limitations of amplifier circuits.
 \end{abstract}
 % #endregion
 
-%================  TABLE OF CONTENTS  =============================================%
-\tableofcontents\listoffigures\listoftables
-\addtocontents{toc}{\protect\setcounter{tocdepth}{2}}
+\begin{IEEEkeywords}
+BJT amplifier, common-emitter, class-A, voltage gain, impedance, efficiency
+\end{IEEEkeywords}
+
 
 %================  INTRODUCTION  ==================================================%
 \section{Introduction}
 % #region
-Introduction here
+The BJT common-emitter amplifier is a common transistor circuit, known for providing voltage gain with phase inversion and moderate input and output impedances.
+A clear understanding of its DC bias point and AC characteristics is important for predicting circuit behaviour and for practical design.
+The class-A power amplifier is a related circuit that operates with the transistor biased in its linear region, enabling it to deliver an undistorted output at the cost of efficiency.
+This report investigates both configurations as part of a laboratory assignment on BJT common-emitter and class-A power amplifiers.
+The objectives are to measure AC and DC voltages in a common-emitter amplifier, to determine voltage gain, input impedance, and output impedance, and to calculate and measure input and output power for a class-A amplifier.
+The analysis combines theoretical calculations with experimental measurements in order to compare expected and observed performance, and to highlight the effects of practical limitations.
+
 % #endregion
 
 \section{Part 1-4}
@@ -77,21 +91,21 @@ The results are summarised in Table~\ref{tab:p1Rmeas}.
 \end{table}
 
 Using these resistance values, the approximate operating point of the transistor can be calculated.  
-Since the base current \(\Ix{B}\) is much smaller than the current through \(R_2\), the base voltage is approximated as shown in Equation~\ref{eq:VBcalc}.  
+Since the base current \(\Ix{B}\) is much smaller than the current through \(R_2\), the base voltage is approximated as shown in (\ref{eq:VBcalc}).  
 
 \begin{equation}
     \label{eq:VBcalc}
     \Vx{B} \approx \Vx{CC} \cdot \frac{R_2}{R_1 + R_2}
 \end{equation}
 
-The emitter voltage is then given by Equation~\ref{eq:VEcalc}, assuming a base-emitter drop of \(\qty{0.7}{\volt}\).  
+The emitter voltage is then given by (\ref{eq:VEcalc}), assuming a base-emitter drop of \(\qty{0.7}{\volt}\).  
 
 \begin{equation}
     \label{eq:VEcalc}
     \Vx{E} = \Vx{B} - \Vx{BE}
 \end{equation}
 
-The emitter current is determined from Ohm's law according to Equation~\ref{eq:IEcalc}.  
+The emitter current is determined from Ohm's law according to (\ref{eq:IEcalc}).  
 
 \begin{equation}
     \label{eq:IEcalc}
@@ -99,14 +113,14 @@ The emitter current is determined from Ohm's law according to Equation~\ref{eq:I
 \end{equation}
 
 As \(\Ix{C} \gg \Ix{B}\), the collector current is approximated as equal to the emitter current.  
-The collector voltage is therefore given by Equation~\ref{eq:VCcalc}.  
+The collector voltage is therefore given by (\ref{eq:VCcalc}).  
 
 \begin{equation}
     \label{eq:VCcalc}
     \Vx{C} = \Vx{CC} - (\Ix{C} \cdot \Rx{C})
 \end{equation}
 
-Finally, the intrinsic emitter resistance \(\rx{e}\) is calculated using Equation~\ref{eq:recalc}, which is provided in the assignment as Eq.~3.1.  
+Finally, the intrinsic emitter resistance \(\rx{e}\) is calculated using (\ref{eq:recalc}), which is provided in the assignment as Eq.~3.1.  
 
 \begin{equation}
     \label{eq:recalc}
@@ -136,12 +150,12 @@ The results of these calculations are listed in Table~\ref{tab:p1calc}.
 The constructed circuit is shown in Figure~\ref{fig:parts1to4}.  
 The measured node voltages were recorded, and the corresponding values of \(\Ix{E}\) and \(\rx{e}\) were calculated, as shown in Table~\ref{tab:p1meas}.  
 
-\begin{figure*}[!t]
+\begin{figure}[!t]
     \centering
-    \includegraphics[width=\textwidth]{Part1to4.jpg}
+    \includegraphics[width=\linewidth]{Part1to4.jpg}
     \caption{Photograph of the constructed Voltage-Divider Bias amplifier circuit.}
     \label{fig:parts1to4}
-\end{figure*}
+\end{figure}
 
 \begin{table}[H]
     \centering
@@ -161,7 +175,7 @@ The measured node voltages were recorded, and the corresponding values of \(\Ix{
     \end{tabular}
 \end{table}
 
-To compare measured and theoretical results, the relative difference is calculated using Equation~\ref{eq:diff}.
+To compare measured and theoretical results, the relative difference is calculated using (\ref{eq:diff}).
 In this expression, \(M\) denotes the measured value and \(C\) denotes the calculated (theoretical) value.
 The difference is expressed as a percentage of the calculated value.
 
@@ -182,7 +196,7 @@ The measured value of \(\rx{e}\) differed from the calculated value by \(\qty{2.
 % #region
 
 The voltage gain of the amplifier can be estimated theoretically using the intrinsic emitter resistance.  
-According to the assignment, the expression for \(\Ax{V}\) is given in Equation~\ref{eq:AVcalc}, which is referred to as Eq.~3.2.  
+According to the assignment, the expression for \(\Ax{V}\) is given in (\ref{eq:AVcalc}), which is referred to as Eq.~3.2.  
 
 \begin{equation}
     \label{eq:AVcalc}
@@ -192,7 +206,7 @@ According to the assignment, the expression for \(\Ax{V}\) is given in Equation~
 The input signal specified in the assignment is \(\Vx{sig} = \qty{20}{\milli\volt}\).  
 However, this value resulted in a distorted output, so the signal generator was set to \(\qty{14}{\milli\volt}\) to avoid distortion.  
 
-The output amplitude \(\Vx{o}\) was measured and the experimental voltage gain was calculated using Equation~\ref{eq:AVdef}.  
+The output amplitude \(\Vx{o}\) was measured and the experimental voltage gain was calculated using (\ref{eq:AVdef}).  
 This expression follows directly from the definition of voltage gain as the ratio of output to input.  
 The negative sign indicates the \(\ang{180}\) phase inversion of the signal, which also allows direct comparison with the theoretical gain.  
 
@@ -204,7 +218,7 @@ The negative sign indicates the \(\ang{180}\) phase inversion of the signal, whi
 
 
 The calculated and measured values are summarised in Table~\ref{tab:p2gain}.  
-The relative difference in \(\Ax{V}\) was calculated using Equation~\ref{eq:diff}.  
+The relative difference in \(\Ax{V}\) was calculated using Eq.~\ref{eq:diff}.  
 
 \begin{table}[H]
     \centering
@@ -215,7 +229,7 @@ The relative difference in \(\Ax{V}\) was calculated using Equation~\ref{eq:diff
         Parameter & {Value} & Unit \\
         \midrule
         \(\Vx{sig}\)        & 13.7     & \(\unit{\milli\volt}\) \\
-        \(\Vx{o}\)          & 2.14     & \(\unit{\milli\volt}\) \\
+        \(\Vx{o}\)          & 2.14     & \(\unit{\volt}\) \\
         \(\Ax{V}\) (calc.)  & -185.321 & --- \\
         \(\Ax{V}\) (meas.)  & -156.204 & --- \\
         Difference          & -15.71   & \(\unit{\percent}\) \\
@@ -229,7 +243,7 @@ The relative difference in \(\Ax{V}\) was calculated using Equation~\ref{eq:diff
 \subsection{Input Impedance}
 % #region
 
-The input impedance of the amplifier can be estimated theoretically using Equation~\ref{eq:Zicalc}, which is referred to as Eq.~3.3 in the assignment.  
+The input impedance of the amplifier can be estimated theoretically using (\ref{eq:Zicalc}), which is referred to as Eq.~3.3 in the assignment.  
 The data sheet specifies a transistor current gain in the range 150--400.  
 An approximate value of \(\beta = 250\) was chosen for this calculation.  
 
@@ -239,27 +253,27 @@ An approximate value of \(\beta = 250\) was chosen for this calculation.
 \end{equation}
 
 The input impedance was also determined experimentally by inserting a series resistor of \(\qty{1}{\kilo\ohm}\) at the input and setting the signal generator to \(\qty{20}{\milli\volt}\).  
-From the resulting division of voltage between \(\Zx{i}\) and \(\Rx{x}\), the input impedance is obtained according to Equation~\ref{eq:Zimeas}.  
+From the resulting division of voltage between \(\Zx{i}\) and \(\Rx{x}\), the input impedance is obtained according to (\ref{eq:Zimeas}).  
 
 \begin{equation}
     \label{eq:Zimeas}
-    \Zx{i} = \frac{\Vx{o}}{\Vx{sig} - \Vx{o}} \cdot \Rx{x}
+    \Zx{i} = \frac{\Vx{i}}{\Vx{sig} - \Vx{i}} \cdot \Rx{x}
 \end{equation}
 
 The results of the theoretical and experimental calculations are summarised in Table~\ref{tab:p3Zi}.  
-The relative difference in \(\Zx{i}\) was calculated using Equation~\ref{eq:diff}.  
+The relative difference in \(\Zx{i}\) was calculated using Eq.~\ref{eq:diff}.  
 
 \begin{table}[H]
     \centering
     \caption{Calculated and measured input impedance}
     \label{tab:p3Zi}
-    \begin{tabular}{l S[table-format=4.4] l}
+    \begin{tabular}{l S[table-format=3.4] l}
         \toprule
         Parameter & {Value} & Unit \\
         \midrule
         \(\Rx{x}\)          & 0.9863 & \(\unit{\kilo\ohm}\) \\
         \(\Vx{sig}\)        & 19.7   & \(\unit{\milli\volt}\) \\
-        \(\Vx{o}\)          & 14.0   & \(\unit{\milli\volt}\) \\
+        \(\Vx{i}\)          & 14.0   & \(\unit{\milli\volt}\) \\
         \(\Zx{i}\) (calc.)  & 2.6466 & \(\unit{\kilo\ohm}\) \\
         \(\Zx{i}\) (meas.)  & 2.4225 & \(\unit{\kilo\ohm}\) \\
         Difference          & -8.47  & \(\unit{\percent}\) \\
@@ -273,7 +287,7 @@ The relative difference in \(\Zx{i}\) was calculated using Equation~\ref{eq:diff
 \subsection{Output Impedance}
 % #region
 
-The output impedance is first estimated theoretically using Equation~\ref{eq:Zocalc}, which corresponds to Eq.~3.4 in the assignment.  
+The output impedance is first estimated theoretically using (\ref{eq:Zocalc}), which corresponds to Eq.~3.4 in the assignment.  
 
 \begin{equation}
     \label{eq:Zocalc}
@@ -281,7 +295,7 @@ The output impedance is first estimated theoretically using Equation~\ref{eq:Zoc
 \end{equation}
 
 The experimental value of \(\Zx{o}\) was obtained by loading the output with a resistor and using the voltage-divider relationship between \(\Zx{o}\) and \(\Rx{L}\).  
-Following the same approach as for \(\Zx{i}\), the expression in Equation~\ref{eq:Zomeas} is derived from the divider that produces the loaded output \(\Vx{L}\) from the unloaded \(\Vx{o}\).  
+Following the same approach as for \(\Zx{i}\), the expression in (\ref{eq:Zomeas}) is derived from the divider that produces the loaded output \(\Vx{L}\) from the unloaded \(\Vx{o}\).  
 
 \begin{equation}
     \label{eq:Zomeas}
@@ -290,20 +304,20 @@ Following the same approach as for \(\Zx{i}\), the expression in Equation~\ref{e
 
 The signal generator was set to \(\qty{14}{\milli\volt}\) to avoid distortion, with a load of \(\Rx{L} = \qty{3}{\kilo\ohm}\) connected.  
 The measured quantities and the resulting impedances are summarised in Table~\ref{tab:p4Zo}.  
-The relative difference in \(\Zx{o}\) was calculated using Equation~\ref{eq:diff}.  
+The relative difference in \(\Zx{o}\) was calculated using Eq.~\ref{eq:diff}.  
 
 \begin{table}[H]
     \centering
     \caption{Calculated and measured output impedance}
     \label{tab:p4Zo}
-    \begin{tabular}{l S[table-format=4.4] l}
+    \begin{tabular}{l S[table-format=3.4] l}
         \toprule
         Parameter & {Value} & Unit \\
         \midrule
         \(\Rx{L}\)          & 3.001  & \(\unit{\kilo\ohm}\) \\
         \(\Vx{sig}\)        & 13.7   & \(\unit{\milli\volt}\) \\
         \(\Vx{o}\)          & 2.14   & \(\unit{\volt}\) \\
-        \(\Vx{L}\)          & 1.08   & \(\unit{\milli\volt}\) \\
+        \(\Vx{L}\)          & 1.08   & \(\unit{\volt}\) \\
         \(\Zx{o}\) (calc.)  & 3.0008 & \(\unit{\kilo\ohm}\) \\
         \(\Zx{o}\) (meas.)  & 2.9454 & \(\unit{\kilo\ohm}\) \\
         Difference          & -1.85  & \(\unit{\percent}\) \\
@@ -318,97 +332,119 @@ The relative difference in \(\Zx{o}\) was calculated using Equation~\ref{eq:diff
 
 
 %================  SECTION  =======================================================%
-\section{Power and Efficiency Analysis (Parts 5--6)}
+\section{Power and Efficiency Analysis}
 % #region
 
 \subsection{DC Bias Analysis}
 
-The circuit in Figure~\ref{fig:parts5to6} uses a different transistor and corresponding resistor values.  
+The circuit is rewired to use a different transistor and resistor values.
 The measured resistor values are listed in Table~\ref{tab:p5R}.  
 
 \begin{table}[H]
     \centering
     \caption{Measured resistor values for Parts 5--6}
     \label{tab:p5R}
-    \begin{tabular}{l S[table-format=3.4] l}
+    \begin{tabular}{l S[table-format=4.2] l}
         \toprule
         Parameter & {Value} & Unit \\
         \midrule
-        \(\Rx{E}\) & 0.0000 & \(\unit{\kilo\ohm}\) \\
-        \(\Rx{C}\) & 0.0000 & \(\unit{\kilo\ohm}\) \\
-        \(R_2\)    & 0.0000 & \(\unit{\kilo\ohm}\) \\
-        \(R_1\)    & 0.0000 & \(\unit{\kilo\ohm}\) \\
+        \(\Rx{E}\) & 20.07  & \(\unit{\ohm}\) \\
+        \(\Rx{C}\) & 134.02 & \(\unit{\ohm}\) \\
+        \(R_2\)    & 176.2  & \(\unit{\ohm}\) \\
+        \(R_1\)    & 986.6  & \(\unit{\ohm}\) \\
         \bottomrule
     \end{tabular}
 \end{table}
 
-The bias point was estimated using the same relations as in Part~1.  
-The calculated values are summarised in Table~\ref{tab:p5calc}.  
+The bias point was estimated using the same relations introduced earlier, 
+namely Eqs.~\ref{eq:VBcalc}--\ref{eq:VCcalc}.  
+The resulting calculated values are summarised in Table~\ref{tab:p5calc}.
 
 \begin{table}[H]
     \centering
     \caption{Calculated DC bias values}
     \label{tab:p5calc}
-    \begin{tabular}{l S[table-format=3.4] l}
+    \begin{tabular}{l S[table-format=3.3] l}
         \toprule
         Parameter & {Value} & Unit \\
         \midrule
-        \(\Vx{CC}\) & 0.0000 & \(\unit{\volt}\) \\
-        \(\Vx{B}\)  & 0.0000 & \(\unit{\volt}\) \\
-        \(\Vx{E}\)  & 0.0000 & \(\unit{\volt}\) \\
-        \(\Ix{E}\)  & 0.0000 & \(\unit{\milli\ampere}\) \\
-        \(\Vx{C}\)  & 0.0000 & \(\unit{\volt}\) \\
+        \(\Vx{CC}\) & 10.000 & \(\unit{\volt}\) \\
+        \(\Vx{B}\)  & 1.515  & \(\unit{\volt}\) \\
+        \(\Vx{E}\)  & 0.815  & \(\unit{\volt}\) \\
+        \(\Vx{C}\)  & 4.556  & \(\unit{\volt}\) \\
+        \(\Ix{E}\)  & 40.623 & \(\unit{\milli\ampere}\) \\
         \bottomrule
     \end{tabular}
 \end{table}
 
-The constructed circuit is shown in Figure~\ref{fig:parts5to6}.  
-The measured node voltages and the emitter current derived from them are given in Table~\ref{tab:p5meas}.  
+The circuit was then constructed using the measured resistors.  
+A photograph of the assembled circuit is shown in Figure~\ref{fig:parts5to6}.
+From this circuit, the node voltages were measured and the emitter current was derived.  
+The results are presented in Table~\ref{tab:p5meas}.
 
-\begin{figure*}[!t]
+
+\begin{figure}[!t]
   \centering
-  \includegraphics[width=\textwidth]{Part5to6.jpg}
-  \caption{Constructed amplifier circuit used for Parts 5--6.}
+  \includegraphics[width=\linewidth]{Part5to6.jpg}
+  \caption{Photograph of the constructed Class-A amplifier circuit.}
   \label{fig:parts5to6}
-\end{figure*}
+\end{figure}
 
 \begin{table}[H]
     \centering
     \caption{Measured DC bias values}
     \label{tab:p5meas}
-    \begin{tabular}{l S[table-format=3.4] l}
+    \begin{tabular}{l S[table-format=3.3] l}
         \toprule
         Parameter & {Value} & Unit \\
         \midrule
-        \(\Vx{CC}\) & 0.0000 & \(\unit{\volt}\) \\
-        \(\Vx{B}\)  & 0.0000 & \(\unit{\volt}\) \\
-        \(\Vx{E}\)  & 0.0000 & \(\unit{\volt}\) \\
-        \(\Ix{E}\)  & 0.0000 & \(\unit{\milli\ampere}\) \\
-        \(\Vx{C}\)  & 0.0000 & \(\unit{\volt}\) \\
+        \(\Vx{CC}\) & 9.97   & \(\unit{\volt}\) \\
+        \(\Vx{B}\)  & 1.426  & \(\unit{\volt}\) \\
+        \(\Vx{E}\)  & 0.811  & \(\unit{\volt}\) \\
+        \(\Vx{C}\)  & 4.60   & \(\unit{\volt}\) \\
+        \(\Ix{E}\)  & 40.409 & \(\unit{\milli\ampere}\) \\
         \bottomrule
     \end{tabular}
 \end{table}
 
 \subsection{Power and Efficiency}
 
-The DC input power is obtained from Equation~\ref{eq:PiDC}, which is Eq.~3.5 in the assignment.  
-Since \(\Ix{C} \approx \Ix{E}\), the collector current is used.  
+The DC input power is obtained from (\ref{eq:PiDC}), which is Eq.~3.5 in the assignment.  
+Since only the emitter current \(\Ix{E}\) was determined, it is used here as an approximation for \(\Ix{C}\).
+
 
 \begin{equation}
     \label{eq:PiDC}
     \Px{i} \text{ (DC)} = \Vx{CC} \cdot \Ix{C}
 \end{equation}
 
-The maximum theoretical output swing is determined by the supply voltage \(\Vx{CC}\) and the DC bias at the collector.  
-In this case, the maximum peak-to-peak output is approximated as %\(\Vx{o} = 2 \cdot \Vx{C}\).  
-From this, the maximum AC output power is estimated using Equation~\ref{eq:PoPP}, corresponding to Eq.~3.6 in the assignment.  
+The maximum theoretical output swing depends on the supply voltage \(\Vx{CC}\) 
+and the DC bias point at the collector \(\Vx{C}\) and is given by (\ref{eq:VoMax}).
+The expression gives \(\Vx{o}\) as voltage peak-to-peak.
+
+\begin{equation}
+    \label{eq:VoMax}
+    \Vx{o} =
+    \begin{cases}
+        2 \cdot \Vx{C},             & \text{if } \Vx{C} < \tfrac{1}{2} \cdot \Vx{CC} \\
+        2 \cdot (\Vx{CC} - \Vx{C}), & \text{if } \Vx{C} > \tfrac{1}{2} \cdot \Vx{CC}
+    \end{cases}
+\end{equation}
+
+As \(\Vx{C}\) is less than half the supply voltage, the upper equation is used.
+Due to some small losses in the circuit the found voltage is also rounded down to whole volts.
+
+The maximum AC output power is then estimated using (\ref{eq:PoPP}), 
+which is the peak-to-peak form of Eq.~3.6 in the assignment.  
+This form is used since the calculated \(\Vx{o}\) represents the maximum peak-to-peak output voltage swing.
+
 
 \begin{equation}
     \label{eq:PoPP}
-%    \Px{o} = \frac{(\Vx{o}^{p-p})^2}{8 \cdot \Rx{C}}
+    \Px{o} \text{ (AC)} = \frac{\Vx{o}^2~(\text{p-p})}{8 \cdot \Rx{C}}
 \end{equation}
 
-The efficiency is then calculated using Equation~\ref{eq:eta}, which is Eq.~3.7 in the assignment.  
+The efficiency is then calculated using (\ref{eq:eta}), which is Eq.~3.7 in the assignment.  
 
 \begin{equation}
     \label{eq:eta}
@@ -421,21 +457,21 @@ The calculated values are listed in Table~\ref{tab:p6calc}.
     \centering
     \caption{Calculated power and efficiency}
     \label{tab:p6calc}
-    \begin{tabular}{l S[table-format=3.4] l}
+    \begin{tabular}{l S[table-format=4.3] l}
         \toprule
         Parameter & {Value} & Unit \\
         \midrule
- %       \(\Vx{o}\)  & 0.0000 & \(\unit{\volt}\) \\
-        \(\Px{i}\)  & 0.0000 & \(\unit{\milli\watt}\) \\
-        \(\Px{o}\)  & 0.0000 & \(\unit{\milli\watt}\) \\
-        \(\eta\)    & 0.00   & \(\unit{\percent}\) \\
+        \(\Vx{o}\)  & 9.0    & \(\unit{\volt}\) \\
+        \(\Px{i}\)  & 406.23 & \(\unit{\milli\watt}\) \\
+        \(\Px{o}\)  & 75.548 & \(\unit{\milli\watt}\) \\
+        \(\eta\)    & 18.60  & \(\unit{\percent}\) \\
         \bottomrule
     \end{tabular}
 \end{table}
 
-For the experimental measurements, the input was increased until the maximum undistorted output was achieved, corresponding to the \qty{40}{\milli\volt} setting of the signal generator (rms).  
-The resulting input and output voltages were measured, both as rms values.  
-The collector resistor voltage drop is calculated as in Equation~\ref{eq:VRC}, and the collector current from Ohm's law as in Equation~\ref{eq:IRC}.  
+For the experimental measurements, the input was increased until the maximum undistorted output was achieved, corresponding to the \qty{40}{\milli\volt} rms setting of the signal generator.  
+The resulting input and output voltages were measured, both as rms values as well.  
+The collector resistor voltage drop is calculated as in (\ref{eq:VRC}), and the collector current from Ohm's law as in (\ref{eq:IRC}).  
 
 \begin{equation}
     \label{eq:VRC}
@@ -447,14 +483,14 @@ The collector resistor voltage drop is calculated as in Equation~\ref{eq:VRC}, a
     \Ix{RC} = \frac{\Vx{RC}}{\Rx{C}}
 \end{equation}
 
-The measured input power is again calculated from Equation~\ref{eq:PiDC}, and the output power from Equation~\ref{eq:PoRMS}, which is the rms form of Eq.~3.6.  
+The measured input power is again calculated from Eq.~\ref{eq:PiDC}, and the output power from (\ref{eq:PoRMS}), which this time uses the rms form of Eq.~3.6.  
 
 \begin{equation}
     \label{eq:PoRMS}
-%    \Px{o} = \frac{\Vx{o}^2}{\Rx{C}}
+    \Px{o} \text{ (AC)} = \frac{\Vx{o}^2}{\Rx{C}}
 \end{equation}
 
-The efficiency is then obtained from Equation~\ref{eq:eta}.  
+The efficiency is then obtained from Eq.~\ref{eq:eta}.  
 All measured values are summarised in Table~\ref{tab:p6meas}.  
 
 \begin{table}[H]
@@ -465,54 +501,42 @@ All measured values are summarised in Table~\ref{tab:p6meas}.
         \toprule
         Parameter & {Value} & Unit \\
         \midrule
-        \(\Vx{i}\)  & 0.0000 & \(\unit{\milli\volt}\) \\
-%        \(\Vx{o}\)  & 0.0000 & \(\unit{\milli\volt}\) \\
-        \(\Px{i}\)  & 0.0000 & \(\unit{\milli\watt}\) \\
-        \(\Px{o}\)  & 0.0000 & \(\unit{\milli\watt}\) \\
-        \(\eta\)    & 0.00   & \(\unit{\percent}\) \\
+        \(\Vx{i}\)  & 23.0   & \(\unit{\milli\volt}\) \\
+        \(\Vx{o}\)  & 2.38   & \(\unit{\volt}\) \\
+        \(\Px{i}\)  & 399.48 & \(\unit{\milli\watt}\) \\
+        \(\Px{o}\)  & 42.27  & \(\unit{\milli\watt}\) \\
+        \(\eta\)    & 10.58  & \(\unit{\percent}\) \\
         \bottomrule
     \end{tabular}
 \end{table}
 
-Finally, the percentage differences between calculated and measured values of \(\Px{i}\), \(\Px{o}\), and \(\eta\) are given in Table~\ref{tab:p6diff}, calculated using Equation~\ref{eq:diff}.  
+Finally, the percentage differences between calculated and measured values of \(\Px{i}\), \(\Px{o}\), and \(\eta\) are given in Table~\ref{tab:p6diff}, calculated using Eq.~\ref{eq:diff}.  
 
 \begin{table}[H]
     \centering
     \caption{Relative differences between calculated and measured power and efficiency}
     \label{tab:p6diff}
-    \begin{tabular}{l S[table-format=3.2]}
+    \begin{tabular}{l S[table-format=4.2] l}
         \toprule
-        Parameter & {Difference \%} \\
+        Parameter & {Difference \%} & Unit \\
         \midrule
-        \(\Px{i}\) & 0.00 \\
-        \(\Px{o}\) & 0.00 \\
-        \(\eta\)   & 0.00 \\
+        \(\Px{i}\) & -1.66  & \(\unit{\percent}\) \\
+        \(\Px{o}\) & -44.06 & \(\unit{\percent}\) \\
+        \(\eta\)   & -43.11 & \(\unit{\percent}\) \\
         \bottomrule
     \end{tabular}
 \end{table}
 
 % #endregion
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 %================  SECTION  =======================================================%
 \section{Conclusion}
 % #region
-Conclution here
+The investigation of BJT common-emitter and class-A power amplifiers showed that theoretical analysis can predict bias voltages, gain, and impedance with good accuracy.
+Most calculated values matched measurements within about ten per cent, confirming the reliability of the basic circuit equations.
+For the class-A amplifier, the measured efficiency was significantly lower than the calculated maximum, mainly due to non-ideal device behaviour and practical measurement limits.
+These results highlight the difference between ideal calculations and real performance, and show the importance of experimental verification in amplifier design.
+
 % #endregion
 
 \end{document}
