@@ -95,6 +95,13 @@
       "backgroundColor": "#0D1E19" 
     },
     {
+      "text": "%================  TABLE OF CONTENTS  =============================================%",
+      "color": "#A0FFD9",            
+      "border": "1px solid #2E6655", 
+      "borderRadius": "6px",
+      "backgroundColor": "#0D1E19" 
+    },
+    {
       "text": "%================  PLACEHOLDER HEADER 1  ==========================================%",
       "color": "#D6C3FF",
       "border": "1px solid #66FFCC",
