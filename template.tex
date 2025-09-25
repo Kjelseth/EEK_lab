@@ -1,0 +1,95 @@
+\documentclass[conference]{IEEEtran}
+
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{siunitx}
+\usepackage{float}
+\usepackage[hidelinks]{hyperref}
+
+%================  CUSTOMIZATION  =================================================%
+
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+\sisetup{
+  detect-all,       % matches the surrounding font
+  separate-uncertainty = true,
+  per-mode = symbol  % m/s instead of m s^-1
+}
+
+% Generic upright subscript macros
+\newcommand{\Ax}[1]{A_\mathrm{#1}}
+\newcommand{\Ix}[1]{I_\mathrm{#1}}
+\newcommand{\Px}[1]{P_\mathrm{#1}}
+\newcommand{\Rx}[1]{R_\mathrm{#1}}
+\newcommand{\rx}[1]{r_\mathrm{#1}}
+\newcommand{\Vx}[1]{V_\mathrm{#1}}
+\newcommand{\Zx}[1]{Z_\mathrm{#1}}
+
+%================  START OF DOCUMENT  =============================================%
+\begin{document}
+
+\title{Elektroniske enheter og kretser\\
+Lab xx: title of experiment}
+
+\author{\IEEEauthorblockN{1\textsuperscript{st} Sølve Kjelseth}
+\IEEEauthorblockA{\textit{Faculty of Technology, Natural Sciences and Maritime Sciences} \\
+\textit{University of South-Eastern Norway}\\
+Horten, Norway\\
+274153@usn.no}
+}
+
+\maketitle
+
+%================  ABSTRACT  ======================================================%
+
+\begin{abstract}
+This document is a template for \LaTeX.
+This and the IEEEtran.cls file define the components of your paper [title, text, heads, etc.]. *CRITICAL: Do Not Use Symbols, Special Characters, Footnotes, 
+or Math in Paper Title or Abstract.
+\end{abstract}
+
+%================  KEYWORDS  ======================================================%
+\begin{IEEEkeywords}
+max, five, important, keywords.
+\end{IEEEkeywords}
+
+%================  INTRODUCTION  ==================================================%
+\section{Introduction}
+% #region
+
+The IEEEtran class file is used to format your paper and style the text. All margins, 
+column widths, line spaces, and text fonts are prescribed; please do not 
+alter them. You may note peculiarities. For example, the head margin
+measures proportionately more than is customary. This measurement 
+and others are deliberate, using specifications that anticipate your paper 
+as one part of the entire proceedings, and not as an independent document. 
+Please do not revise any of the current designations.
+
+Text heads organize the topics on a relational, hierarchical basis. For 
+example, the paper title is the primary text head because all subsequent 
+material relates and elaborates on this one topic. If there are two or more 
+sub-topics, the next level head \verb|\section{Name}| (uppercase Roman numerals) should be used 
+and, conversely, if there are not at least two sub-topics, then no subheads 
+should be introduced, only use \verb|\subsection{Name}|.
+% #endregion
+
+%================  ACKNOWLEDGMENT  ================================================%
+\section*{Acknowledgment}
+% #region
+T
+his report corresponds to Lab~xx in the course \emph{Elektroniske enheter og kretser}.
+All related materials (\LaTeX~sources, figures, and code) are released under the MIT License and available at \url{https://github.com/Kjelseth/EEK_lab}.
+% #endregion
+
+%================  REFERENCES  ====================================================%
+\section*{References}
+% #region
+
+% #endregion
+
+\end{document}

@@ -74,7 +74,28 @@
       "backgroundColor": "#1A0F24"
     },
     {
+      "text": "%================  KEYWORDS  ======================================================%",
+      "color": "#C6A0FF",
+      "border": "1px solid #5E3D87",
+      "borderRadius": "5px",
+      "backgroundColor": "#1A0F24"
+    },
+    {
       "text": "%================  INTRODUCTION  ==================================================%",
+      "color": "#C6A0FF",
+      "border": "1px solid #5E3D87",
+      "borderRadius": "5px",
+      "backgroundColor": "#1A0F24"
+    },
+    {
+      "text": "%================  ACKNOWLEDGMENT  ================================================%",
+      "color": "#C6A0FF",
+      "border": "1px solid #5E3D87",
+      "borderRadius": "5px",
+      "backgroundColor": "#1A0F24"
+    },
+    {
+      "text": "%================  REFERENCES  ====================================================%",
       "color": "#C6A0FF",
       "border": "1px solid #5E3D87",
       "borderRadius": "5px",
