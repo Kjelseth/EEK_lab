@@ -32,17 +32,15 @@
     "grammar": "warning",
     "style": "hint"
   },
-
-  // ===== Multi-language support =====
-  "[latex]": {
-    "cSpell.language": "en-GB",
-    "ltex.language": "en-GB"
-  },
+  "cSpell.caseSensitive": true,
   "cSpell.words": [
     "Elektroniske",
     "enheter",
+    "GeoGebra",
+    "JFET",
     "kretser",
-    "SUBFIGURES"
+    "meas",
+    "subfigures"
   ],
 
   // Example: Per-file Norwegian override in a .tex file:
