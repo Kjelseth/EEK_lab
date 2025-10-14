@@ -1,0 +1,17 @@
+# --- ieee_dark_signature.mplstyle ---
+
+pdf.fonttype: 42
+ps.fonttype: 42
+axes.linewidth: 0.8
+grid.linestyle: --
+grid.alpha: 0.35
+lines.linewidth: 1.0
+font.size: 8.5
+legend.fontsize: 8
+axes.labelsize: 9
+axes.titlesize: 9
+font.family: sans-serif
+font.sans-serif: Avenir Next
+
+# Signature colors (dark orange, dark purple)
+axes.prop_cycle: cycler("color", ["#8B4000", "#2E0854"])

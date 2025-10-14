@@ -34,6 +34,7 @@
   },
   "cSpell.caseSensitive": true,
   "cSpell.words": [
+    "CMRR",
     "Elektroniske",
     "enheter",
     "GeoGebra",
@@ -41,7 +42,7 @@
     "kretser",
     "meas",
     "subfigures"
-  ],
+],
 
   // Example: Per-file Norwegian override in a .tex file:
   // Add at top of file:
