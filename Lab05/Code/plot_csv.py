@@ -5,15 +5,6 @@ import matplotlib.pyplot as plt
 from matplotlib import font_manager as fm
 from scipy.signal import detrend
 from scipy.fft import rfft, rfftfreq
-
-
-from scipy.signal import detrend, butter, filtfilt
-from scipy.fft import rfft, rfftfreq
-
-from scipy.signal import butter, filtfilt
-from scipy.fft import rfft, rfftfreq
-import numpy as np
-
 import numpy as np
 from scipy.signal import correlate
 
